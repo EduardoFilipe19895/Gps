@@ -1,0 +1,2915 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BrightStart</title>
+  <style id="applicationStylesheet" type="text/css">
+  	.mediaViewInfo {
+  		--web-view-name: Landing Page;
+  		--web-view-id: Landing_Page;
+  		--web-scale-on-resize: true;
+  		--web-enable-deep-linking: true;
+  	}
+  	:root {
+  		--web-view-ids: Landing_Page;
+  	}
+  	* {
+  		margin: 0;
+  		padding: 0;
+  		box-sizing: border-box;
+  		border: none;
+      text-decoration: none;
+  	}
+  	#Landing_Page {
+  		position: absolute;
+  		width: 100%;
+  		height: 7400px;
+  		background-color: rgba(255,255,255,1);
+  		overflow: hidden;
+  		--web-view-name: Landing Page;
+  		--web-view-id: Landing_Page;
+  		--web-scale-on-resize: true;
+  		--web-enable-deep-linking: true;
+  	}
+  	#Retngulo_1 {
+  		fill: rgba(8,100,177,1);
+  	}
+  	.Retngulo_1 {
+  		position: absolute;
+  		overflow: visible;
+  		width: 1920px;
+  		height: 1079px;
+  		left: 0px;
+  		top: 0px;
+  	}
+  	#Retngulo_3 {
+  		fill: rgba(255,255,255,1);
+  	}
+  	.Retngulo_3 {
+  		filter: drop-shadow(0px -10px 20px rgba(0, 46, 113, 0.502));
+  		position: absolute;
+  		overflow: visible;
+  		width: 1980px;
+  		height: 1139px;
+  		left: 0px;
+  		top: 1079px;
+  	}
+  	#Retngulo_9 {
+  		fill: rgba(255,255,255,1);
+  	}
+  	.Retngulo_9 {
+  		position: absolute;
+  		overflow: visible;
+  		width: 1920px;
+  		height: 1079px;
+  		left: 0px;
+  		top: 3231px;
+  	}
+  	#Retngulo_4 {
+  		fill: rgba(245,245,245,1);
+  	}
+  	.Retngulo_4 {
+  		position: absolute;
+  		overflow: visible;
+  		width: 1920px;
+  		height: 1079px;
+  		left: 0px;
+  		top: 2158px;
+  	}
+  	#Retngulo_10 {
+  		fill: rgba(245,245,245,1);
+  	}
+  	.Retngulo_10 {
+  		position: absolute;
+  		overflow: visible;
+  		width: 1920px;
+  		height: 1079px;
+  		left: 0px;
+  		top: 4322px;
+  	}
+  	#Retngulo_18 {
+  		fill: rgba(245,245,245,1);
+  	}
+  	.Retngulo_18 {
+  		position: absolute;
+  		overflow: visible;
+  		width: 1920px;
+  		height: 1423px;
+  		left: 0px;
+  		top: 5579px;
+  	}
+  	#Retngulo_2 {
+  		fill: transparent;
+  	}
+  	.Retngulo_2 {
+  		position: absolute;
+  		overflow: visible;
+  		width: 1920px;
+  		height: 130px;
+  		left: 0px;
+  		top: 0px;
+  	}
+  	#Retngulo_17 {
+  		fill: rgba(8,100,177,1);
+  	}
+  	.Retngulo_17 {
+  		position: absolute;
+  		overflow: visible;
+  		width: 1920px;
+  		height: 500px;
+  		left: 0px;
+  		top: 5077px;
+  	}
+  	#Retngulo_19 {
+  		fill: rgba(8,100,177,1);
+  	}
+  	.Retngulo_19 {
+  		position: absolute;
+  		overflow: visible;
+  		width: 1920px;
+  		height: 400px;
+  		left: 0px;
+  		top: 7000px;
+  	}
+  	#Copyrights {
+  		position: absolute;
+  		width: 1056.914px;
+  		height: 66px;
+  		left: 127.086px;
+  		top: 7318px;
+  		overflow: visible;
+  	}
+  	#Icon_material-copyright {
+  		fill: rgba(255,255,255,1);
+  	}
+  	.Icon_material-copyright {
+  		overflow: visible;
+  		position: absolute;
+  		width: 25px;
+  		height: 25px;
+  		left: 0px;
+  		top: 3.221px;
+  		transform: matrix(1,0,0,1,0,0);
+  	}
+  	#__2020_Reserved_by_Deloitte {
+  		left: 20.914px;
+  		top: 0px;
+  		position: absolute;
+  		overflow: visible;
+  		width: 1037px;
+  		height: 66px;
+  		line-height: 80px;
+  		margin-top: -27.5px;
+  		text-align: left;
+  		font-family: Biko;
+  		font-style: normal;
+  		font-weight: bold;
+  		font-size: 25px;
+  		color: rgba(255,255,255,1);
+  	}
+  	#Segue-nos {
+  		left: 1430px;
+  		top: 7090px;
+  		position: absolute;
+  		overflow: visible;
+  		width: 319px;
+  		height: 66px;
+  		line-height: 80px;
+  		margin-top: -25px;
+  		text-align: left;
+  		font-family: Biko;
+  		font-style: normal;
+  		font-weight: bold;
+  		font-size: 30px;
+  		color: rgba(255,255,255,1);
+  	}
+  	#Retngulo_29 {
+  		fill: rgba(255,255,255,1);
+  	}
+  	.Retngulo_29 {
+  		position: absolute;
+  		overflow: visible;
+  		width: 60px;
+  		height: 60px;
+  		left: 1430px;
+  		top: 7155px;
+  	}
+  	#Retngulo_30 {
+  		fill: rgba(255,255,255,1);
+  	}
+  	.Retngulo_30 {
+  		position: absolute;
+  		overflow: visible;
+  		width: 60px;
+  		height: 60px;
+  		left: 1507px;
+  		top: 7155px;
+  	}
+  	#Retngulo_31 {
+  		fill: rgba(255,255,255,1);
+  	}
+  	.Retngulo_31 {
+  		position: absolute;
+  		overflow: visible;
+  		width: 60px;
+  		height: 60px;
+  		left: 1584px;
+  		top: 7155px;
+  	}
+  	#Retngulo_33 {
+  		fill: rgba(255,255,255,1);
+  	}
+  	.Retngulo_33 {
+  		position: absolute;
+  		overflow: visible;
+  		width: 60px;
+  		height: 60px;
+  		left: 1667px;
+  		top: 7156px;
+  	}
+  	#Icon_awesome-facebook-f {
+  		fill: rgba(8,100,177,1);
+  	}
+  	.Icon_awesome-facebook-f {
+  		overflow: visible;
+  		position: absolute;
+  		width: 13.39px;
+  		height: 25px;
+  		left: 1453px;
+  		top: 7173px;
+  		transform: matrix(1,0,0,1,0,0);
+  	}
+  	#Icon_awesome-twitter {
+  		fill: rgba(8,100,177,1);
+  	}
+  	.Icon_awesome-twitter {
+  		overflow: visible;
+  		position: absolute;
+  		width: 25px;
+  		height: 20.305px;
+  		left: 1524.809px;
+  		top: 7176.381px;
+  		transform: matrix(1,0,0,1,0,0);
+  	}
+  	#Icon_feather-instagram {
+  		position: absolute;
+  		width: 25px;
+  		height: 25px;
+  		left: 1601.209px;
+  		top: 7173px;
+  		overflow: visible;
+  	}
+  	#Caminho_1 {
+  		fill: transparent;
+  		stroke: rgba(8,100,177,1);
+  		stroke-width: 3px;
+  		stroke-linejoin: round;
+  		stroke-linecap: round;
+  		stroke-miterlimit: 4;
+  		shape-rendering: auto;
+  	}
+  	.Caminho_1 {
+  		overflow: visible;
+  		position: absolute;
+  		width: 28px;
+  		height: 28px;
+  		left: 0px;
+  		top: 0px;
+  		transform: matrix(1,0,0,1,0,0);
+  	}
+  	#Caminho_2 {
+  		fill: transparent;
+  		stroke: rgba(8,100,177,1);
+  		stroke-width: 3px;
+  		stroke-linejoin: round;
+  		stroke-linecap: round;
+  		stroke-miterlimit: 4;
+  		shape-rendering: auto;
+  	}
+  	.Caminho_2 {
+  		overflow: visible;
+  		position: absolute;
+  		width: 13.154px;
+  		height: 13.154px;
+  		left: 7.554px;
+  		top: 7.446px;
+  		transform: matrix(1,0,0,1,0,0);
+  	}
+  	#Caminho_3 {
+  		fill: transparent;
+  		stroke: rgba(8,100,177,1);
+  		stroke-width: 3px;
+  		stroke-linejoin: round;
+  		stroke-linecap: round;
+  		stroke-miterlimit: 4;
+  		shape-rendering: auto;
+  	}
+  	.Caminho_3 {
+  		overflow: visible;
+  		position: absolute;
+  		width: 3px;
+  		height: 3px;
+  		left: 19.375px;
+  		top: 5.625px;
+  		transform: matrix(1,0,0,1,0,0);
+  	}
+  	#Icon_awesome-youtube {
+  		fill: rgba(8,100,177,1);
+  	}
+  	.Icon_awesome-youtube {
+  		overflow: visible;
+  		position: absolute;
+  		width: 27px;
+  		height: 18.984px;
+  		left: 1680.649px;
+  		top: 7177.5px;
+  		transform: matrix(1,0,0,1,0,0);
+  	}
+  	#Address {
+  		position: absolute;
+  		width: 731px;
+  		height: 132px;
+  		left: 130px;
+  		top: 7103px;
+  		overflow: visible;
+  	}
+  	#Praa_do_Bom_Sucesso_Porto_22_5 {
+  		left: 275px;
+  		top: 0px;
+  		position: absolute;
+  		overflow: visible;
+  		width: 457px;
+  		height: 132px;
+  		line-height: 30px;
+  		margin-top: -6px;
+  		text-align: left;
+  		font-family: Biko;
+  		font-style: normal;
+  		font-weight: normal;
+  		font-size: 18px;
+  		color: rgba(255,255,255,1);
+  	}
+  	#layer1 {
+  		position: absolute;
+  		width: 216.775px;
+  		height: 40.526px;
+  		left: 0px;
+  		top: 0px;
+  		overflow: visible;
+  	}
+  	#g3359 {
+  		position: absolute;
+  		width: 216.775px;
+  		height: 40.526px;
+  		left: 0px;
+  		top: 0px;
+  		overflow: visible;
+  	}
+  	#g3371 {
+  		position: absolute;
+  		width: 216.775px;
+  		height: 40.526px;
+  		left: 0px;
+  		top: 0px;
+  		overflow: visible;
+  	}
+  	#path3356 {
+  		fill: rgba(134,188,36,1);
+  	}
+  	.path3356 {
+  		overflow: visible;
+  		position: absolute;
+  		width: 11.49px;
+  		height: 11.488px;
+  		left: 205.285px;
+  		top: 29.038px;
+  		transform: matrix(1,0,0,1,0,0);
+  	}
+  	#path3360 {
+  		fill: rgba(255,255,255,1);
+  	}
+  	.path3360 {
+  		overflow: visible;
+  		position: absolute;
+  		width: 32.929px;
+  		height: 39.726px;
+  		left: 0px;
+  		top: 0.168px;
+  		transform: matrix(1,0,0,1,0,0);
+  	}
+  	#path3362 {
+  		fill: rgba(255,255,255,1);
+  	}
+  	.path3362 {
+  		overflow: visible;
+  		position: absolute;
+  		width: 9.986px;
+  		height: 39.893px;
+  		left: 67.693px;
+  		top: 0.001px;
+  		transform: matrix(1,0,0,1,0,0);
+  	}
+  	#path3366 {
+  		fill: rgba(255,255,255,1);
+  	}
+  	.path3366 {
+  		overflow: visible;
+  		position: absolute;
+  		width: 28.884px;
+  		height: 30.68px;
+  		left: 81.569px;
+  		top: 9.737px;
+  		transform: matrix(1,0,0,1,0,0);
+  	}
+  	#path3370 {
+  		fill: rgba(255,255,255,1);
+  	}
+  	.path3370 {
+  		overflow: visible;
+  		position: absolute;
+  		width: 9.987px;
+  		height: 29.633px;
+  		left: 114.426px;
+  		top: 10.262px;
+  		transform: matrix(1,0,0,1,0,0);
+  	}
+  	#path3372 {
+  		fill: rgba(255,255,255,1);
+  	}
+  	.path3372 {
+  		overflow: visible;
+  		position: absolute;
+  		width: 9.987px;
+  		height: 6.678px;
+  		left: 114.426px;
+  		top: 0px;
+  		transform: matrix(1,0,0,1,0,0);
+  	}
+  	#path3376 {
+  		fill: rgba(255,255,255,1);
+  	}
+  	.path3376 {
+  		overflow: visible;
+  		position: absolute;
+  		width: 21.093px;
+  		height: 39.471px;
+  		left: 128.375px;
+  		top: 0.947px;
+  		transform: matrix(1,0,0,1,0,0);
+  	}
+  	#path3380 {
+  		fill: rgba(255,255,255,1);
+  	}
+  	.path3380 {
+  		overflow: visible;
+  		position: absolute;
+  		width: 21.096px;
+  		height: 39.471px;
+  		left: 151.486px;
+  		top: 0.947px;
+  		transform: matrix(1,0,0,1,0,0);
+  	}
+  	#path3384 {
+  		fill: rgba(255,255,255,1);
+  	}
+  	.path3384 {
+  		overflow: visible;
+  		position: absolute;
+  		width: 27.941px;
+  		height: 30.678px;
+  		left: 174.896px;
+  		top: 9.739px;
+  		transform: matrix(1,0,0,1,0,0);
+  	}
+  	#path3388 {
+  		fill: rgba(255,255,255,1);
+  	}
+  	.path3388 {
+  		overflow: visible;
+  		position: absolute;
+  		width: 27.94px;
+  		height: 30.678px;
+  		left: 35.895px;
+  		top: 9.739px;
+  		transform: matrix(1,0,0,1,0,0);
+  	}
+  	#Contact_Us_Section {
+  		position: absolute;
+  		width: 1258px;
+  		height: 1213px;
+  		left: 336px;
+  		top: 5687px;
+  		overflow: visible;
+  	}
+  	#Header_Text {
+  		position: absolute;
+  		width: 500px;
+  		height: 85.5px;
+  		left: 379px;
+  		top: 0px;
+  		overflow: visible;
+  	}
+  	#Inscreve-te {
+  		left: 0px;
+  		top: 0px;
+  		position: absolute;
+  		overflow: visible;
+  		width: 501px;
+  		height: 75px;
+  		text-align: center;
+  		font-family: Biko;
+  		font-style: normal;
+  		font-weight: normal;
+  		font-size: 50px;
+  		color: rgba(8,100,177,1);
+  	}
+  	#Linha_10 {
+  		fill: transparent;
+  		stroke: rgba(103,103,103,1);
+  		stroke-width: 8px;
+  		stroke-linejoin: miter;
+  		stroke-linecap: butt;
+  		stroke-miterlimit: 4;
+  		shape-rendering: auto;
+  	}
+  	.Linha_10 {
+  		overflow: visible;
+  		position: absolute;
+  		width: 200px;
+  		height: 8px;
+  		left: 150.5px;
+  		top: 85.5px;
+  		transform: matrix(1,0,0,1,0,0);
+  	}
+  	#Contact_Form {
+  		position: absolute;
+  		width: 1258px;
+  		height: 1018px;
+  		left: 0px;
+  		top: 195px;
+  		overflow: visible;
+  	}
+  	#Retngulo_24 {
+  		fill: rgba(8,100,177,1);
+  	}
+  	.Retngulo_24 {
+  		filter: drop-shadow(3px 4px 8px rgba(0, 22, 83, 0.302));
+  		position: absolute;
+  		overflow: visible;
+  		width: 324px;
+  		height: 124px;
+  		left: 479px;
+  		top: 918px;
+  	}
+  	#Submeter {
+  		left: 506px;
+  		top: 949px;
+  		position: absolute;
+  		overflow: visible;
+  		width: 176px;
+  		white-space: nowrap;
+  		text-align: left;
+  		font-family: Biko;
+  		font-style: normal;
+  		font-weight: bold;
+  		font-size: 30px;
+  		color: rgba(255,255,255,1);
+  	}
+  	#Icon_ionic-md-send {
+  		fill: rgba(255,255,255,1);
+  	}
+  	.Icon_ionic-md-send {
+  		overflow: visible;
+  		position: absolute;
+  		width: 29.25px;
+  		height: 27px;
+  		left: 722px;
+  		top: 954.5px;
+  		transform: matrix(1,0,0,1,0,0);
+  	}
+  	#Grupo_188 {
+  		position: absolute;
+  		width: 1258px;
+  		height: 831px;
+  		left: 0px;
+  		top: 0px;
+  		overflow: visible;
+  	}
+  	#Retngulo_20 {
+  		fill: rgba(255,255,255,1);
+  	}
+  	.Retngulo_20 {
+  		filter: drop-shadow(2px 2px 6px rgba(8, 100, 177, 0.2));
+  		position: absolute;
+  		overflow: visible;
+  		width: 618px;
+  		height: 118px;
+  		left: 0px;
+  		top: 67px;
+  	}
+  	#Retngulo_21 {
+  		fill: rgba(255,255,255,1);
+  	}
+  	.Retngulo_21 {
+  		filter: drop-shadow(2px 2px 6px rgba(8, 100, 177, 0.2));
+  		position: absolute;
+  		overflow: visible;
+  		width: 618px;
+  		height: 118px;
+  		left: 658px;
+  		top: 67px;
+  	}
+  	#Retngulo_22 {
+  		fill: rgba(255,255,255,1);
+  	}
+  	.Retngulo_22 {
+  		filter: drop-shadow(2px 2px 6px rgba(8, 100, 177, 0.2));
+  		position: absolute;
+  		overflow: visible;
+  		width: 1276px;
+  		height: 118px;
+  		left: 0px;
+  		top: 274px;
+  	}
+  	#Retngulo_23 {
+  		fill: rgba(255,255,255,1);
+  	}
+  	.Retngulo_23 {
+  		filter: drop-shadow(2px 2px 6px rgba(8, 100, 177, 0.2));
+  		position: absolute;
+  		overflow: visible;
+  		width: 1276px;
+  		height: 368px;
+  		left: 0px;
+  		top: 481px;
+  	}
+  	#Primeiro_Nome {
+  		left: 0px;
+  		top: 0px;
+  		position: absolute;
+  		overflow: visible;
+  		width: 480px;
+  		height: 85px;
+  		text-align: left;
+  		font-family: Biko;
+  		font-style: normal;
+  		font-weight: bold;
+  		font-size: 35px;
+  		color: rgba(8,100,177,1);
+  	}
+  	#Conta-nos_a_tua_experiencia {
+  		left: 0px;
+  		top: 408px;
+  		position: absolute;
+  		overflow: visible;
+  		width: 480px;
+  		height: 85px;
+  		text-align: left;
+  		font-family: Biko;
+  		font-style: normal;
+  		font-weight: bold;
+  		font-size: 35px;
+  		color: rgba(8,100,177,1);
+  	}
+  	#Escola {
+  		left: 0px;
+  		top: 196px;
+  		position: absolute;
+  		overflow: visible;
+  		width: 480px;
+  		height: 85px;
+  		text-align: left;
+  		font-family: Biko;
+  		font-style: normal;
+  		font-weight: bold;
+  		font-size: 35px;
+  		color: rgba(8,100,177,1);
+  	}
+  	#Ultimo_Nome {
+  		left: 658px;
+  		top: 0px;
+  		position: absolute;
+  		overflow: visible;
+  		width: 480px;
+  		height: 85px;
+  		text-align: left;
+  		font-family: Biko;
+  		font-style: normal;
+  		font-weight: bold;
+  		font-size: 35px;
+  		color: rgba(8,100,177,1);
+  	}
+  	#Icon_material-texture {
+  		fill: rgba(103,103,103,1);
+  	}
+  	.Icon_material-texture {
+  		overflow: visible;
+  		position: absolute;
+  		width: 28.708px;
+  		height: 28.708px;
+  		left: 1219.288px;
+  		top: 791.288px;
+  		transform: matrix(1,0,0,1,0,0);
+  	}
+  	#Alguma_duvida {
+  		left: 140px;
+  		top: 5192px;
+  		position: absolute;
+  		overflow: visible;
+  		width: 648px;
+  		height: 121px;
+  		text-align: left;
+  		font-family: Biko;
+  		font-style: normal;
+  		font-weight: bold;
+  		font-size: 75px;
+  		color: rgba(255,255,255,1);
+  	}
+  	#Fala_connosco {
+  		left: 1244px;
+  		top: 5227px;
+  		position: absolute;
+  		overflow: visible;
+  		width: 537px;
+  		height: 121px;
+  		text-align: left;
+  		font-family: Biko;
+  		font-style: normal;
+  		font-weight: bold;
+  		font-size: 55px;
+  		color: rgba(255,255,255,1);
+  	}
+  	#Grupo_187 {
+  		position: absolute;
+  		width: 966px;
+  		height: 117px;
+  		left: 140px;
+  		top: 5339px;
+  		overflow: visible;
+  	}
+  	#Retngulo_26 {
+  		fill: rgba(255,255,255,1);
+  	}
+  	.Retngulo_26 {
+  		filter: drop-shadow(2px 2px 6px rgba(103, 103, 103, 0.2));
+  		position: absolute;
+  		overflow: visible;
+  		width: 618px;
+  		height: 118px;
+  		left: 0px;
+  		top: 0px;
+  	}
+  	#Retngulo_27 {
+  		fill: transparent;
+  		stroke: rgba(255,255,255,1);
+  		stroke-width: 5px;
+  		stroke-linejoin: miter;
+  		stroke-linecap: butt;
+  		stroke-miterlimit: 4;
+  		shape-rendering: auto;
+  	}
+  	.Retngulo_27 {
+  		filter: drop-shadow(3px 4px 8px rgba(8, 100, 177, 0.102));
+  		position: absolute;
+  		overflow: visible;
+  		width: 374px;
+  		height: 124px;
+  		left: 616px;
+  		top: 0px;
+  	}
+  	#Enviar {
+  		left: 634px;
+  		top: 26px;
+  		position: absolute;
+  		overflow: visible;
+  		width: 315px;
+  		height: 85px;
+  		text-align: center;
+  		font-family: Biko;
+  		font-style: normal;
+  		font-weight: bold;
+  		font-size: 35px;
+  		color: rgba(255,255,255,1);
+  	}
+  	#O_teu_endereo_de_e-mail {
+  		left: 48px;
+  		top: 32px;
+  		position: absolute;
+  		overflow: visible;
+  		width: 480px;
+  		height: 85px;
+  		text-align: left;
+  		font-family: Biko;
+  		font-style: normal;
+  		font-weight: normal;
+  		font-size: 30px;
+  		color: rgba(103,103,103,0.2);
+  	}
+  	#Testimonials_Section {
+  		position: absolute;
+  		width: 1575px;
+  		height: 631px;
+  		left: 172.5px;
+  		top: 4402px;
+  		overflow: visible;
+  	}
+  	#Retngulo_35 {
+  		fill: rgba(255,255,255,1);
+  	}
+  	.Retngulo_35 {
+  		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+  		position: absolute;
+  		overflow: visible;
+  		width: 1207px;
+  		height: 511px;
+  		left: 184.136px;
+  		top: 138px;
+  	}
+  	#Testimonial_Text {
+  		position: absolute;
+  		width: 1029px;
+  		height: 337px;
+  		left: 276.136px;
+  		top: 196px;
+  		overflow: visible;
+  	}
+  	#A_melhor_oportunidade_que_tive {
+  		left: 46px;
+  		top: 25px;
+  		position: absolute;
+  		overflow: visible;
+  		width: 948px;
+  		height: 312px;
+  		line-height: 50px;
+  		margin-top: -10px;
+  		text-align: center;
+  		font-family: Biko;
+  		font-style: normal;
+  		font-weight: normal;
+  		font-size: 30px;
+  		color: rgba(103,103,103,1);
+  	}
+  	#Eduardo_Filipe {
+  		left: 523px;
+  		top: 168px;
+  		position: absolute;
+  		overflow: visible;
+  		width: 256px;
+  		height: 65px;
+  		line-height: 50px;
+  		margin-top: -10px;
+  		text-align: left;
+  		font-family: Biko;
+  		font-style: normal;
+  		font-weight: bold;
+  		font-size: 30px;
+  		color: rgba(8,100,177,1);
+  	}
+  	#Aluno_de_DWDM__Brigthstart {
+  		left: 523px;
+  		top: 214px;
+  		position: absolute;
+  		overflow: visible;
+  		width: 256px;
+  		height: 65px;
+  		line-height: 30px;
+  		margin-top: -2.5px;
+  		text-align: left;
+  		font-family: Biko;
+  		font-style: normal;
+  		font-weight: normal;
+  		font-size: 25px;
+  		color: rgba(103,103,103,1);
+  	}
+  	#Icon_awesome-quote-right {
+  		fill: rgba(8,100,177,1);
+  	}
+  	.Icon_awesome-quote-right {
+  		overflow: visible;
+  		position: absolute;
+  		width: 36px;
+  		height: 31.5px;
+  		left: 993px;
+  		top: 84px;
+  		transform: matrix(1,0,0,1,0,0);
+  	}
+  	#Icon_awesome-quote-right_cg {
+  		fill: rgba(8,100,177,1);
+  	}
+  	.Icon_awesome-quote-right_cg {
+  		overflow: visible;
+  		position: absolute;
+  		width: 36px;
+  		height: 31.5px;
+  		left: 0px;
+  		top: 0px;
+  		transform: matrix(1,0,0,1,0,0);
+  	}
+  	#Grupo_de_mscara_2 {
+  		position: absolute;
+  		width: 154.896px;
+  		height: 154.896px;
+  		left: 349.104px;
+  		top: 150px;
+  		overflow: visible;
+  	}
+  	#Icon_awesome-chevron-right {
+  		fill: rgba(103,103,103,0.149);
+  	}
+  	.Icon_awesome-chevron-right {
+  		overflow: visible;
+  		position: absolute;
+  		width: 50px;
+  		height: 82.39px;
+  		left: 1525px;
+  		top: 324.148px;
+  		transform: matrix(1,0,0,1,0,0);
+  	}
+  	#Icon_awesome-chevron-right_cj {
+  		fill: rgba(103,103,103,0.149);
+  	}
+  	.Icon_awesome-chevron-right_cj {
+  		overflow: visible;
+  		position: absolute;
+  		width: 50px;
+  		height: 82.39px;
+  		left: 0px;
+  		top: 324.148px;
+  		transform: matrix(1,0,0,1,0,0);
+  	}
+  	#Header_Text_ck {
+  		position: absolute;
+  		width: 500px;
+  		height: 75.5px;
+  		left: 539.136px;
+  		top: 0px;
+  		overflow: visible;
+  	}
+  	#Testemunhos {
+  		left: 0px;
+  		top: 0px;
+  		position: absolute;
+  		overflow: visible;
+  		width: 501px;
+  		height: 75px;
+  		text-align: center;
+  		font-family: Biko;
+  		font-style: normal;
+  		font-weight: normal;
+  		font-size: 50px;
+  		color: rgba(8,100,177,1);
+  	}
+  	#Linha_9 {
+  		fill: transparent;
+  		stroke: rgba(103,103,103,1);
+  		stroke-width: 8px;
+  		stroke-linejoin: miter;
+  		stroke-linecap: butt;
+  		stroke-miterlimit: 4;
+  		shape-rendering: auto;
+  	}
+  	.Linha_9 {
+  		overflow: visible;
+  		position: absolute;
+  		width: 200px;
+  		height: 8px;
+  		left: 151.5px;
+  		top: 75.5px;
+  		transform: matrix(1,0,0,1,0,0);
+  	}
+  	#Latest_News {
+  		position: absolute;
+  		width: 500px;
+  		height: 75.5px;
+  		left: 699px;
+  		top: 3323px;
+  		overflow: visible;
+  	}
+  	#Onde_Estamos {
+  		left: 0px;
+  		top: 0px;
+  		position: absolute;
+  		overflow: visible;
+  		width: 501px;
+  		height: 75px;
+  		text-align: center;
+  		font-family: Biko;
+  		font-style: normal;
+  		font-weight: normal;
+  		font-size: 50px;
+  		color: rgba(8,100,177,1);
+  	}
+  	#Linha_8 {
+  		fill: transparent;
+  		stroke: rgba(103,103,103,1);
+  		stroke-width: 8px;
+  		stroke-linejoin: miter;
+  		stroke-linecap: butt;
+  		stroke-miterlimit: 4;
+  		shape-rendering: auto;
+  	}
+  	.Linha_8 {
+  		overflow: visible;
+  		position: absolute;
+  		width: 200px;
+  		height: 8px;
+  		left: 150.5px;
+  		top: 75.5px;
+  		transform: matrix(1,0,0,1,0,0);
+  	}
+  	#Features_Section {
+  		position: absolute;
+  		width: 1571px;
+  		height: 942px;
+  		left: 175px;
+  		top: 2265px;
+  		overflow: visible;
+  	}
+  	#Feature_1 {
+  		position: absolute;
+  		width: 504px;
+  		height: 689px;
+  		left: 0px;
+  		top: 253px;
+  		overflow: visible;
+  	}
+  	#A_ajuda_est_sempre_disponvel_d {
+  		left: 0px;
+  		top: 295px;
+  		position: absolute;
+  		overflow: visible;
+  		width: 505px;
+  		height: 394px;
+  		line-height: 50px;
+  		margin-top: -7.5px;
+  		text-align: center;
+  		font-family: Biko;
+  		font-style: normal;
+  		font-weight: normal;
+  		font-size: 35px;
+  		color: rgba(103,103,103,1);
+  	}
+  	#Retngulo_6 {
+  		fill: rgba(8,100,177,1);
+  	}
+  	.Retngulo_6 {
+  		filter: drop-shadow(0px 0px 20px rgba(8, 100, 177, 0.102));
+  		position: absolute;
+  		overflow: visible;
+  		width: 310px;
+  		height: 310px;
+  		left: 139px;
+  		top: 0px;
+  	}
+  	#lamp {
+  		position: absolute;
+  		width: 120px;
+  		height: 120px;
+  		left: 201px;
+  		top: 64.769px;
+  		overflow: visible;
+  	}
+  	#Caminho_163 {
+  		fill: rgba(255,255,255,1);
+  	}
+  	.Caminho_163 {
+  		overflow: visible;
+  		position: absolute;
+  		width: 7.5px;
+  		height: 17.285px;
+  		left: 56.25px;
+  		top: 0px;
+  		transform: matrix(1,0,0,1,0,0);
+  	}
+  	#Caminho_164 {
+  		fill: rgba(255,255,255,1);
+  	}
+  	.Caminho_164 {
+  		overflow: visible;
+  		position: absolute;
+  		width: 14.422px;
+  		height: 14.424px;
+  		left: 89.106px;
+  		top: 16.471px;
+  		transform: matrix(1,0,0,1,0,0);
+  	}
+  	#Caminho_165 {
+  		fill: rgba(255,255,255,1);
+  	}
+  	.Caminho_165 {
+  		overflow: visible;
+  		position: absolute;
+  		width: 17.285px;
+  		height: 7.5px;
+  		left: 102.715px;
+  		top: 56.25px;
+  		transform: matrix(1,0,0,1,0,0);
+  	}
+  	#Caminho_166 {
+  		fill: rgba(255,255,255,1);
+  	}
+  	.Caminho_166 {
+  		overflow: visible;
+  		position: absolute;
+  		width: 14.422px;
+  		height: 14.424px;
+  		left: 89.106px;
+  		top: 89.101px;
+  		transform: matrix(1,0,0,1,0,0);
+  	}
+  	#Caminho_167 {
+  		fill: rgba(255,255,255,1);
+  	}
+  	.Caminho_167 {
+  		overflow: visible;
+  		position: absolute;
+  		width: 14.422px;
+  		height: 14.424px;
+  		left: 16.476px;
+  		top: 89.101px;
+  		transform: matrix(1,0,0,1,0,0);
+  	}
+  	#Caminho_168 {
+  		fill: rgba(255,255,255,1);
+  	}
+  	.Caminho_168 {
+  		overflow: visible;
+  		position: absolute;
+  		width: 17.285px;
+  		height: 7.5px;
+  		left: 0px;
+  		top: 56.25px;
+  		transform: matrix(1,0,0,1,0,0);
+  	}
+  	#Caminho_169 {
+  		fill: rgba(255,255,255,1);
+  	}
+  	.Caminho_169 {
+  		overflow: visible;
+  		position: absolute;
+  		width: 14.422px;
+  		height: 14.424px;
+  		left: 16.476px;
+  		top: 16.471px;
+  		transform: matrix(1,0,0,1,0,0);
+  	}
+  	#Caminho_170 {
+  		fill: rgba(255,255,255,1);
+  	}
+  	.Caminho_170 {
+  		overflow: visible;
+  		position: absolute;
+  		width: 30px;
+  		height: 15px;
+  		left: 45px;
+  		top: 105px;
+  		transform: matrix(1,0,0,1,0,0);
+  	}
+  	#Caminho_171 {
+  		fill: rgba(255,255,255,1);
+  	}
+  	.Caminho_171 {
+  		overflow: visible;
+  		position: absolute;
+  		width: 70.006px;
+  		height: 72.543px;
+  		left: 24.994px;
+  		top: 25.007px;
+  		transform: matrix(1,0,0,1,0,0);
+  	}
+  	#Caminho_172 {
+  		fill: rgba(255,255,255,1);
+  	}
+  	.Caminho_172 {
+  		overflow: visible;
+  		position: absolute;
+  		width: 0.35px;
+  		height: 0.05px;
+  		left: 44.65px;
+  		top: 97.5px;
+  		transform: matrix(1,0,0,1,0,0);
+  	}
+  	#Caminho_173 {
+  		fill: rgba(255,255,255,1);
+  	}
+  	.Caminho_173 {
+  		overflow: visible;
+  		position: absolute;
+  		width: 0.25px;
+  		height: 0.05px;
+  		left: 75px;
+  		top: 97.5px;
+  		transform: matrix(1,0,0,1,0,0);
+  	}
+  	#Feature_2 {
+  		position: absolute;
+  		width: 486px;
+  		height: 689px;
+  		left: 534px;
+  		top: 253px;
+  		overflow: visible;
+  	}
+  	#No_final_do_programa_ters_form {
+  		left: 0px;
+  		top: 295px;
+  		position: absolute;
+  		overflow: visible;
+  		width: 487px;
+  		height: 394px;
+  		line-height: 50px;
+  		margin-top: -7.5px;
+  		text-align: center;
+  		font-family: Biko;
+  		font-style: normal;
+  		font-weight: normal;
+  		font-size: 35px;
+  		color: rgba(103,103,103,1);
+  	}
+  	#Retngulo_7 {
+  		fill: rgba(8,100,177,1);
+  	}
+  	.Retngulo_7 {
+  		filter: drop-shadow(0px 0px 20px rgba(8, 100, 177, 0.102));
+  		position: absolute;
+  		overflow: visible;
+  		width: 310px;
+  		height: 310px;
+  		left: 125px;
+  		top: 0px;
+  	}
+  	#evolution {
+  		position: absolute;
+  		width: 120px;
+  		height: 109.522px;
+  		left: 190px;
+  		top: 70px;
+  		overflow: visible;
+  	}
+  	#Caminho_174 {
+  		fill: rgba(255,255,255,1);
+  	}
+  	.Caminho_174 {
+  		overflow: visible;
+  		position: absolute;
+  		width: 120px;
+  		height: 69.831px;
+  		left: 0px;
+  		top: 39.691px;
+  		transform: matrix(1,0,0,1,0,0);
+  	}
+  	#Caminho_175 {
+  		fill: rgba(255,255,255,1);
+  	}
+  	.Caminho_175 {
+  		overflow: visible;
+  		position: absolute;
+  		width: 91.62px;
+  		height: 60.152px;
+  		left: 15.105px;
+  		top: 0px;
+  		transform: matrix(1,0,0,1,0,0);
+  	}
+  	#Feature_3 {
+  		position: absolute;
+  		width: 517px;
+  		height: 689px;
+  		left: 1054px;
+  		top: 253px;
+  		overflow: visible;
+  	}
+  	#Durante_o_programa_ter_Propina {
+  		left: 0px;
+  		top: 295px;
+  		position: absolute;
+  		overflow: visible;
+  		width: 518px;
+  		height: 394px;
+  		line-height: 50px;
+  		margin-top: -7.5px;
+  		text-align: center;
+  		font-family: Biko;
+  		font-style: normal;
+  		font-weight: normal;
+  		font-size: 35px;
+  		color: rgba(103,103,103,1);
+  	}
+  	#Retngulo_8 {
+  		fill: rgba(8,100,177,1);
+  	}
+  	.Retngulo_8 {
+  		filter: drop-shadow(0px 0px 20px rgba(8, 100, 177, 0.102));
+  		position: absolute;
+  		overflow: visible;
+  		width: 310px;
+  		height: 310px;
+  		left: 125px;
+  		top: 0px;
+  	}
+  	#currency {
+  		position: absolute;
+  		width: 110px;
+  		height: 110.265px;
+  		left: 192px;
+  		top: 75px;
+  		overflow: visible;
+  	}
+  	#Caminho_176 {
+  		fill: rgba(255,255,255,1);
+  	}
+  	.Caminho_176 {
+  		overflow: visible;
+  		position: absolute;
+  		width: 101.654px;
+  		height: 34.942px;
+  		left: 0.026px;
+  		top: 0px;
+  		transform: matrix(1,0,0,1,0,0);
+  	}
+  	#Caminho_177 {
+  		fill: rgba(255,255,255,1);
+  	}
+  	.Caminho_177 {
+  		overflow: visible;
+  		position: absolute;
+  		width: 99.351px;
+  		height: 19.121px;
+  		left: 7.364px;
+  		top: 21.907px;
+  		transform: matrix(1,0,0,1,0,0);
+  	}
+  	#Caminho_178 {
+  		fill: rgba(255,255,255,1);
+  	}
+  	.Caminho_178 {
+  		overflow: visible;
+  		position: absolute;
+  		width: 35.019px;
+  		height: 34.993px;
+  		left: 37.545px;
+  		top: 51.399px;
+  		transform: matrix(1,0,0,1,0,0);
+  	}
+  	#Caminho_179 {
+  		fill: rgba(255,255,255,1);
+  	}
+  	.Caminho_179 {
+  		overflow: visible;
+  		position: absolute;
+  		width: 11.115px;
+  		height: 11.194px;
+  		left: 17.811px;
+  		top: 54.376px;
+  		transform: matrix(1,0,0,1,0,0);
+  	}
+  	#Caminho_180 {
+  		fill: rgba(255,255,255,1);
+  	}
+  	.Caminho_180 {
+  		overflow: visible;
+  		position: absolute;
+  		width: 110px;
+  		height: 80.068px;
+  		left: 0px;
+  		top: 30.197px;
+  		transform: matrix(1,0,0,1,0,0);
+  	}
+  	#Caminho_181 {
+  		fill: rgba(255,255,255,1);
+  	}
+  	.Caminho_181 {
+  		overflow: visible;
+  		position: absolute;
+  		width: 11.115px;
+  		height: 11.194px;
+  		left: 83.281px;
+  		top: 68.159px;
+  		transform: matrix(1,0,0,1,0,0);
+  	}
+  	#Features {
+  		position: absolute;
+  		width: 500px;
+  		height: 77.5px;
+  		left: 534px;
+  		top: 0px;
+  		overflow: visible;
+  	}
+  	#Vantagens {
+  		left: 0px;
+  		top: 0px;
+  		position: absolute;
+  		overflow: hidden;
+  		width: 501px;
+  		height: 57px;
+  		text-align: center;
+  		font-family: Biko;
+  		font-style: normal;
+  		font-weight: normal;
+  		font-size: 50px;
+  		color: rgba(8,100,177,1);
+  	}
+  	#Linha_7 {
+  		fill: transparent;
+  		stroke: rgba(103,103,103,1);
+  		stroke-width: 8px;
+  		stroke-linejoin: miter;
+  		stroke-linecap: butt;
+  		stroke-miterlimit: 4;
+  		shape-rendering: auto;
+  	}
+  	.Linha_7 {
+  		overflow: visible;
+  		position: absolute;
+  		width: 200px;
+  		height: 8px;
+  		left: 155.5px;
+  		top: 77.5px;
+  		transform: matrix(1,0,0,1,0,0);
+  	}
+  	#About_Us_Section {
+  		position: absolute;
+  		width: 1452px;
+  		height: 883px;
+  		left: 234px;
+  		top: 1188px;
+  		overflow: visible;
+  	}
+  	#Header_Text_dq {
+  		position: absolute;
+  		width: 500px;
+  		height: 116px;
+  		left: 476px;
+  		top: 0px;
+  		overflow: visible;
+  	}
+  	#Sobre_Ns {
+  		left: 0px;
+  		top: 0px;
+  		position: absolute;
+  		overflow: visible;
+  		width: 501px;
+  		height: 116px;
+  		text-align: center;
+  		font-family: Biko;
+  		font-style: normal;
+  		font-weight: normal;
+  		font-size: 50px;
+  		color: rgba(8,100,177,1);
+  	}
+  	#Linha_6 {
+  		fill: transparent;
+  		stroke: rgba(103,103,103,1);
+  		stroke-width: 8px;
+  		stroke-linejoin: miter;
+  		stroke-linecap: butt;
+  		stroke-miterlimit: 4;
+  		shape-rendering: auto;
+  	}
+  	.Linha_6 {
+  		overflow: visible;
+  		position: absolute;
+  		width: 200px;
+  		height: 8px;
+  		left: 150.5px;
+  		top: 74.5px;
+  		transform: matrix(1,0,0,1,0,0);
+  	}
+  	#Numbers {
+  		position: absolute;
+  		width: 1452px;
+  		height: 296px;
+  		left: 0px;
+  		top: 587px;
+  		overflow: visible;
+  	}
+  	#About_1 {
+  		position: absolute;
+  		width: 303px;
+  		height: 296px;
+  		left: 0px;
+  		top: 0px;
+  		overflow: visible;
+  	}
+  	#ID650 {
+  		left: 0px;
+  		top: 0px;
+  		position: absolute;
+  		overflow: visible;
+  		width: 304px;
+  		height: 161px;
+  		text-align: center;
+  		font-family: Biko;
+  		font-style: normal;
+  		font-weight: bold;
+  		font-size: 100px;
+  		color: rgba(8,100,177,1);
+  	}
+  	#Alunos {
+  		left: 37px;
+  		top: 135px;
+  		position: absolute;
+  		overflow: visible;
+  		width: 245px;
+  		height: 161px;
+  		line-height: 60px;
+  		margin-top: -10px;
+  		text-align: center;
+  		font-family: Biko;
+  		font-style: normal;
+  		font-weight: normal;
+  		font-size: 40px;
+  		color: rgba(103,103,103,1);
+  	}
+  	#About_2 {
+  		position: absolute;
+  		width: 303px;
+  		height: 296px;
+  		left: 383px;
+  		top: 0px;
+  		overflow: visible;
+  	}
+  	#ID7 {
+  		left: 0px;
+  		top: 0px;
+  		position: absolute;
+  		overflow: visible;
+  		width: 304px;
+  		height: 161px;
+  		text-align: center;
+  		font-family: Biko;
+  		font-style: normal;
+  		font-weight: bold;
+  		font-size: 100px;
+  		color: rgba(8,100,177,1);
+  	}
+  	#Turmas_Criadas {
+  		left: 37px;
+  		top: 135px;
+  		position: absolute;
+  		overflow: visible;
+  		width: 245px;
+  		height: 161px;
+  		line-height: 60px;
+  		margin-top: -10px;
+  		text-align: center;
+  		font-family: Biko;
+  		font-style: normal;
+  		font-weight: normal;
+  		font-size: 40px;
+  		color: rgba(103,103,103,1);
+  	}
+  	#About_3 {
+  		position: absolute;
+  		width: 303px;
+  		height: 296px;
+  		left: 772px;
+  		top: 0px;
+  		overflow: visible;
+  	}
+  	#ID720 {
+  		left: 0px;
+  		top: 0px;
+  		position: absolute;
+  		overflow: visible;
+  		width: 304px;
+  		height: 161px;
+  		text-align: center;
+  		font-family: Biko;
+  		font-style: normal;
+  		font-weight: bold;
+  		font-size: 100px;
+  		color: rgba(8,100,177,1);
+  	}
+  	#Projetos_Concluidos {
+  		left: 31px;
+  		top: 135px;
+  		position: absolute;
+  		overflow: visible;
+  		width: 245px;
+  		height: 161px;
+  		line-height: 60px;
+  		margin-top: -10px;
+  		text-align: center;
+  		font-family: Biko;
+  		font-style: normal;
+  		font-weight: normal;
+  		font-size: 40px;
+  		color: rgba(103,103,103,1);
+  	}
+  	#About_4 {
+  		position: absolute;
+  		width: 303px;
+  		height: 296px;
+  		left: 1149px;
+  		top: 0px;
+  		overflow: visible;
+  	}
+  	#ID115 {
+  		left: 0px;
+  		top: 0px;
+  		position: absolute;
+  		overflow: visible;
+  		width: 304px;
+  		height: 161px;
+  		text-align: center;
+  		font-family: Biko;
+  		font-style: normal;
+  		font-weight: bold;
+  		font-size: 100px;
+  		color: rgba(8,100,177,1);
+  	}
+  	#Alunos_Formados {
+  		left: 37px;
+  		top: 135px;
+  		position: absolute;
+  		overflow: visible;
+  		width: 245px;
+  		height: 161px;
+  		line-height: 60px;
+  		margin-top: -10px;
+  		text-align: center;
+  		font-family: Biko;
+  		font-style: normal;
+  		font-weight: normal;
+  		font-size: 40px;
+  		color: rgba(103,103,103,1);
+  	}
+  	#Linha_11 {
+  		fill: transparent;
+  		stroke: rgba(112,112,112,1);
+  		stroke-width: 1px;
+  		stroke-linejoin: miter;
+  		stroke-linecap: butt;
+  		stroke-miterlimit: 4;
+  		shape-rendering: auto;
+  	}
+  	.Linha_11 {
+  		overflow: visible;
+  		position: absolute;
+  		width: 1px;
+  		height: 144px;
+  		left: 343.5px;
+  		top: 22.5px;
+  		transform: matrix(1,0,0,1,0,0);
+  	}
+  	#Linha_12 {
+  		fill: transparent;
+  		stroke: rgba(112,112,112,1);
+  		stroke-width: 1px;
+  		stroke-linejoin: miter;
+  		stroke-linecap: butt;
+  		stroke-miterlimit: 4;
+  		shape-rendering: auto;
+  	}
+  	.Linha_12 {
+  		overflow: visible;
+  		position: absolute;
+  		width: 1px;
+  		height: 144px;
+  		left: 726.5px;
+  		top: 22.5px;
+  		transform: matrix(1,0,0,1,0,0);
+  	}
+  	#Linha_13 {
+  		fill: transparent;
+  		stroke: rgba(112,112,112,1);
+  		stroke-width: 1px;
+  		stroke-linejoin: miter;
+  		stroke-linecap: butt;
+  		stroke-miterlimit: 4;
+  		shape-rendering: auto;
+  	}
+  	.Linha_13 {
+  		overflow: visible;
+  		position: absolute;
+  		width: 1px;
+  		height: 144px;
+  		left: 1125.5px;
+  		top: 22.5px;
+  		transform: matrix(1,0,0,1,0,0);
+  	}
+  	#Este_programa_pretende_ter_uma {
+  		left: 143px;
+  		top: 201px;
+  		position: absolute;
+  		overflow: visible;
+  		width: 1167px;
+  		height: 271px;
+  		line-height: 60px;
+  		margin-top: -12.5px;
+  		text-align: center;
+  		font-family: Biko;
+  		font-style: normal;
+  		font-weight: normal;
+  		font-size: 35px;
+  		color: rgba(103,103,103,1);
+  	}
+  	#Grupo_176 {
+  		position: absolute;
+  		width: 1599px;
+  		height: 1066px;
+  		left: 0px;
+  		top: 5px;
+  		overflow: visible;
+  	}
+  	#Sobre_Ns_eb {
+  		left: 830px;
+  		top: 138px;
+  		position: absolute;
+  		overflow: visible;
+  		width: 151px;
+  		height: 68px;
+  		line-height: 80px;
+  		margin-top: -25px;
+  		text-align: left;
+  		font-family: Biko;
+  		font-style: normal;
+  		font-weight: normal;
+  		font-size: 30px;
+  		color: rgba(255,255,255,1);
+  	}
+  	#Vantagens_ec {
+  		left: 1007px;
+  		top: 138px;
+  		position: absolute;
+  		overflow: visible;
+  		width: 156px;
+  		height: 68px;
+  		line-height: 80px;
+  		margin-top: -25px;
+  		text-align: center;
+  		font-family: Biko;
+  		font-style: normal;
+  		font-weight: normal;
+  		font-size: 30px;
+  		color: rgba(255,255,255,1);
+  	}
+  	#Onde_Estamos_ed {
+  		left: 1198px;
+  		top: 138px;
+  		position: absolute;
+  		overflow: visible;
+  		width: 207px;
+  		height: 68px;
+  		line-height: 80px;
+  		margin-top: -25px;
+  		text-align: center;
+  		font-family: Biko;
+  		font-style: normal;
+  		font-weight: normal;
+  		font-size: 30px;
+  		color: rgba(255,255,255,1);
+  	}
+  	#BrightStart {
+  		left: 826px;
+  		top: 267px;
+  		position: absolute;
+  		overflow: visible;
+  		width: 813px;
+  		height: 134px;
+  		text-align: left;
+  		font-family: Biko;
+  		font-style: normal;
+  		font-weight: normal;
+  		font-size: 100px;
+  		color: rgba(255,255,255,1);
+  	}
+  	#____O_BrightStart__uma_iniciat {
+  		left: 830px;
+  		top: 498px;
+  		position: absolute;
+  		overflow: visible;
+  		width: 955px;
+  		height: 284px;
+  		line-height: 45px;
+  		margin-top: -5px;
+  		text-align: left;
+  		font-family: Biko;
+  		font-style: normal;
+  		font-weight: normal;
+  		font-size: 35px;
+  		color: rgba(255,255,255,1);
+  	}
+  	#Icon_awesome-discord {
+  		fill: rgba(255,255,255,1);
+  	}
+  	.Icon_awesome-discord {
+  		overflow: visible;
+  		position: absolute;
+  		width: 96.724px;
+  		height: 110.542px;
+  		left: 1244px;
+  		top: 5339px;
+  		transform: matrix(1,0,0,1,0,0);
+  	}
+  	#layer1_eh {
+  		position: absolute;
+  		width: 386.578px;
+  		height: 72.271px;
+  		left: 140px;
+  		top: 93.865px;
+  		overflow: visible;
+  	}
+  	#g3359_ei {
+  		position: absolute;
+  		width: 386.578px;
+  		height: 72.271px;
+  		left: 0px;
+  		top: 0px;
+  		overflow: visible;
+  	}
+  	#g3371_ej {
+  		position: absolute;
+  		width: 386.578px;
+  		height: 72.271px;
+  		left: 0px;
+  		top: 0px;
+  		overflow: visible;
+  	}
+  	#path3356_ek {
+  		fill: rgba(134,188,36,1);
+  	}
+  	.path3356_ek {
+  		overflow: visible;
+  		position: absolute;
+  		width: 20.49px;
+  		height: 20.488px;
+  		left: 366.088px;
+  		top: 51.783px;
+  		transform: matrix(1,0,0,1,0,0);
+  	}
+  	#path3360_el {
+  		fill: rgba(255,255,255,1);
+  	}
+  	.path3360_el {
+  		overflow: visible;
+  		position: absolute;
+  		width: 58.723px;
+  		height: 70.844px;
+  		left: 0px;
+  		top: 0.301px;
+  		transform: matrix(1,0,0,1,0,0);
+  	}
+  	#path3362_em {
+  		fill: rgba(255,255,255,1);
+  	}
+  	.path3362_em {
+  		overflow: visible;
+  		position: absolute;
+  		width: 17.809px;
+  		height: 71.141px;
+  		left: 120.717px;
+  		top: 0.003px;
+  		transform: matrix(1,0,0,1,0,0);
+  	}
+  	#path3366_en {
+  		fill: rgba(255,255,255,1);
+  	}
+  	.path3366_en {
+  		overflow: visible;
+  		position: absolute;
+  		width: 51.508px;
+  		height: 54.711px;
+  		left: 145.465px;
+  		top: 17.365px;
+  		transform: matrix(1,0,0,1,0,0);
+  	}
+  	#path3370_eo {
+  		fill: rgba(255,255,255,1);
+  	}
+  	.path3370_eo {
+  		overflow: visible;
+  		position: absolute;
+  		width: 17.812px;
+  		height: 52.844px;
+  		left: 204.056px;
+  		top: 18.3px;
+  		transform: matrix(1,0,0,1,0,0);
+  	}
+  	#path3372_ep {
+  		fill: rgba(255,255,255,1);
+  	}
+  	.path3372_ep {
+  		overflow: visible;
+  		position: absolute;
+  		width: 17.812px;
+  		height: 11.909px;
+  		left: 204.056px;
+  		top: 0px;
+  		transform: matrix(1,0,0,1,0,0);
+  	}
+  	#path3376_eq {
+  		fill: rgba(255,255,255,1);
+  	}
+  	.path3376_eq {
+  		overflow: visible;
+  		position: absolute;
+  		width: 37.616px;
+  		height: 70.387px;
+  		left: 228.932px;
+  		top: 1.689px;
+  		transform: matrix(1,0,0,1,0,0);
+  	}
+  	#path3380_er {
+  		fill: rgba(255,255,255,1);
+  	}
+  	.path3380_er {
+  		overflow: visible;
+  		position: absolute;
+  		width: 37.621px;
+  		height: 70.387px;
+  		left: 270.148px;
+  		top: 1.689px;
+  		transform: matrix(1,0,0,1,0,0);
+  	}
+  	#path3384_es {
+  		fill: rgba(255,255,255,1);
+  	}
+  	.path3384_es {
+  		overflow: visible;
+  		position: absolute;
+  		width: 49.824px;
+  		height: 54.708px;
+  		left: 311.896px;
+  		top: 17.368px;
+  		transform: matrix(1,0,0,1,0,0);
+  	}
+  	#path3388_et {
+  		fill: rgba(255,255,255,1);
+  	}
+  	.path3388_et {
+  		overflow: visible;
+  		position: absolute;
+  		width: 49.826px;
+  		height: 54.708px;
+  		left: 64.01px;
+  		top: 17.368px;
+  		transform: matrix(1,0,0,1,0,0);
+  	}
+  	#O_Instituto_Politcnico_de_Vise {
+  		left: 140px;
+  		top: 3917px;
+  		position: absolute;
+  		overflow: visible;
+  		width: 502px;
+  		height: 115px;
+  		line-height: 30px;
+  		margin-top: -5px;
+  		text-align: center;
+  		font-family: Biko;
+  		font-style: normal;
+  		font-weight: normal;
+  		font-size: 20px;
+  		color: rgba(103,103,103,1);
+  	}
+  	#IPV_DWDM-Desenvolvimento_Web_e {
+  		left: 140px;
+  		top: 3777px;
+  		position: absolute;
+  		overflow: visible;
+  		width: 502px;
+  		height: 119px;
+  		text-align: center;
+  		font-family: Biko;
+  		font-style: normal;
+  		font-weight: bold;
+  		font-size: 30px;
+  		color: rgba(8,100,177,1);
+  	}
+  	#Imagem_3 {
+  		position: absolute;
+  		width: 501px;
+  		height: 227px;
+  		left: 140px;
+  		top: 3515px;
+  		overflow: visible;
+  	}
+  	#O_Instituto_Politcnico_de_Setb {
+  		left: 707px;
+  		top: 3917px;
+  		position: absolute;
+  		overflow: visible;
+  		width: 472px;
+  		height: 115px;
+  		line-height: 30px;
+  		margin-top: -5px;
+  		text-align: center;
+  		font-family: Biko;
+  		font-style: normal;
+  		font-weight: normal;
+  		font-size: 20px;
+  		color: rgba(103,103,103,1);
+  	}
+  	#IPS_TI-Tecnologias_Informticas {
+  		left: 716px;
+  		top: 3777px;
+  		position: absolute;
+  		overflow: visible;
+  		width: 501px;
+  		height: 119px;
+  		text-align: center;
+  		font-family: Biko;
+  		font-style: normal;
+  		font-weight: bold;
+  		font-size: 30px;
+  		color: rgba(8,100,177,1);
+  	}
+  	#O_Instituto_Politcnico_de_Vise_ez {
+  		left: 1292px;
+  		top: 3917px;
+  		position: absolute;
+  		overflow: visible;
+  		width: 472px;
+  		height: 115px;
+  		line-height: 30px;
+  		margin-top: -5px;
+  		text-align: center;
+  		font-family: Biko;
+  		font-style: normal;
+  		font-weight: normal;
+  		font-size: 20px;
+  		color: rgba(103,103,103,1);
+  	}
+  	#IPL_TI-Tecnologias_Informticas {
+  		left: 1279px;
+  		top: 3793px;
+  		position: absolute;
+  		overflow: visible;
+  		width: 502px;
+  		height: 119px;
+  		text-align: center;
+  		font-family: Biko;
+  		font-style: normal;
+  		font-weight: bold;
+  		font-size: 30px;
+  		color: rgba(8,100,177,1);
+  	}
+  	#Imagem_3_e {
+  		position: absolute;
+  		width: 501px;
+  		height: 227px;
+  		left: 1279px;
+  		top: 3515px;
+  		overflow: visible;
+  	}
+  	#Imagem_5 {
+  		position: absolute;
+  		width: 501px;
+  		height: 224px;
+  		left: 716px;
+  		top: 3515px;
+  		overflow: visible;
+  	}
+  	#Testemunhos_e {
+  		left: 1436px;
+  		top: 138px;
+  		position: absolute;
+  		overflow: visible;
+  		width: 207px;
+  		height: 68px;
+  		line-height: 80px;
+  		margin-top: -25px;
+  		text-align: center;
+  		font-family: Biko;
+  		font-style: normal;
+  		font-weight: normal;
+  		font-size: 30px;
+  		color: rgba(255,255,255,1);
+  	}
+  	#Inscreve-te_e {
+  		left: 1674px;
+  		top: 138px;
+  		position: absolute;
+  		overflow: visible;
+  		width: 145px;
+  		height: 68px;
+  		line-height: 80px;
+  		margin-top: -25px;
+  		text-align: center;
+  		font-family: Biko;
+  		font-style: normal;
+  		font-weight: normal;
+  		font-size: 30px;
+  		color: rgba(255,255,255,1);
+  	}
+  	#Grupo_191 {
+  		position: absolute;
+  		width: 157px;
+  		height: 59px;
+  		left: 319px;
+  		top: 4148px;
+  		overflow: visible;
+  	}
+  	#Retngulo_344 {
+  		fill: rgba(8,100,177,1);
+  	}
+  	.Retngulo_344 {
+  		position: absolute;
+  		overflow: visible;
+  		width: 157px;
+  		height: 59px;
+  		left: 0px;
+  		top: 0px;
+  	}
+  	#Saiba_Mais {
+  		left: 20px;
+  		top: 18px;
+  		position: absolute;
+  		overflow: visible;
+  		width: 110px;
+  		white-space: nowrap;
+  		line-height: 33px;
+  		margin-top: -5.5px;
+  		text-align: left;
+  		font-family: Helvetica Neue;
+  		font-style: normal;
+  		font-weight: normal;
+  		font-size: 22px;
+  		color: rgba(255,255,255,1);
+  	}
+  	#Grupo_192 {
+  		position: absolute;
+  		width: 157px;
+  		height: 59px;
+  		left: 895px;
+  		top: 4148px;
+  		overflow: visible;
+  	}
+  	#Retngulo_344_e {
+  		fill: rgba(8,100,177,1);
+  	}
+  	.Retngulo_344_e {
+  		position: absolute;
+  		overflow: visible;
+  		width: 157px;
+  		height: 59px;
+  		left: 0px;
+  		top: 0px;
+  	}
+  	#Saiba_Mais_fa {
+  		left: 20px;
+  		top: 18px;
+  		position: absolute;
+  		overflow: visible;
+  		width: 110px;
+  		white-space: nowrap;
+  		line-height: 33px;
+  		margin-top: -5.5px;
+  		text-align: left;
+  		font-family: Helvetica Neue;
+  		font-style: normal;
+  		font-weight: normal;
+  		font-size: 22px;
+  		color: rgba(255,255,255,1);
+  	}
+  	#Grupo_193 {
+  		position: absolute;
+  		width: 157px;
+  		height: 59px;
+  		left: 1458px;
+  		top: 4148px;
+  		overflow: visible;
+  	}
+  	#Retngulo_344_fc {
+  		fill: rgba(8,100,177,1);
+  	}
+  	.Retngulo_344_fc {
+  		position: absolute;
+  		overflow: visible;
+  		width: 157px;
+  		height: 59px;
+  		left: 0px;
+  		top: 0px;
+  	}
+  	#Saiba_Mais_fd {
+  		left: 20px;
+  		top: 18px;
+  		position: absolute;
+  		overflow: visible;
+  		width: 110px;
+  		white-space: nowrap;
+  		line-height: 33px;
+  		margin-top: -5.5px;
+  		text-align: left;
+  		font-family: Helvetica Neue;
+  		font-style: normal;
+  		font-weight: normal;
+  		font-size: 22px;
+  		color: rgba(255,255,255,1);
+  	}
+  	#ipvpt_brightstartdeloittept_21 {
+  		left: 140px;
+  		top: 4037px;
+  		position: absolute;
+  		overflow: visible;
+  		width: 502px;
+  		height: 86px;
+  		line-height: 30px;
+  		margin-top: -5px;
+  		text-align: center;
+  		font-family: Biko;
+  		font-style: normal;
+  		font-weight: normal;
+  		font-size: 20px;
+  		color: rgba(103,103,103,1);
+  	}
+  	#brightstartdeloittept_210_422_ {
+  		left: 716px;
+  		top: 4057px;
+  		position: absolute;
+  		overflow: visible;
+  		width: 502px;
+  		height: 66px;
+  		line-height: 30px;
+  		margin-top: -5px;
+  		text-align: center;
+  		font-family: Biko;
+  		font-style: normal;
+  		font-weight: normal;
+  		font-size: 20px;
+  		color: rgba(103,103,103,1);
+  	}
+  	#brightstartdeloittept_210_422__fg {
+  		left: 1279px;
+  		top: 4057px;
+  		position: absolute;
+  		overflow: visible;
+  		width: 502px;
+  		height: 66px;
+  		line-height: 30px;
+  		margin-top: -5px;
+  		text-align: center;
+  		font-family: Biko;
+  		font-style: normal;
+  		font-weight: normal;
+  		font-size: 20px;
+  		color: rgba(103,103,103,1);
+  	}
+  	#Grupo_194 {
+  		position: absolute;
+  		width: 157px;
+  		height: 59px;
+  		left: 967px;
+  		top: 4921px;
+  		overflow: visible;
+  	}
+  	#Retngulo_344_fi {
+  		fill: rgba(8,100,177,1);
+  	}
+  	.Retngulo_344_fi {
+  		position: absolute;
+  		overflow: visible;
+  		width: 157px;
+  		height: 59px;
+  		left: 0px;
+  		top: 0px;
+  	}
+  	#Ler_Mais {
+  		left: 20px;
+  		top: 18px;
+  		position: absolute;
+  		overflow: visible;
+  		width: 85px;
+  		white-space: nowrap;
+  		line-height: 33px;
+  		margin-top: -5.5px;
+  		text-align: left;
+  		font-family: Helvetica Neue;
+  		font-style: normal;
+  		font-weight: normal;
+  		font-size: 22px;
+  		color: rgba(255,255,255,1);
+  	}
+  	#homem-estudante {
+  		position: absolute;
+  		width: 603px;
+  		height: 878px;
+  		left: 74px;
+  		top: 201px;
+  		overflow: visible;
+  	}
+    #redimensionar{
+      width: 25%;
+    }
+
+  #linkescola{
+  color: white;
+  font-family: Helvetica;
+  background-color:#0864B1;
+  font-size: 23px;
+  text-decoration:none;
+}
+a:visited{
+  color: rgba(255,255,255,1);
+}
+  </style>
+</head>
+<body>
+  <div id="redimensionar">
+  </div>
+  <div id="Landing_Page">
+  	<svg class="Retngulo_1">
+  		<rect id="Retngulo_1" rx="0" ry="0" x="0" y="0" width="1920" height="1079">
+  		</rect>
+  	</svg>
+  	<svg class="Retngulo_3">
+  		<rect id="Retngulo_3" rx="0" ry="0" x="0" y="0" width="1920" height="1079">
+  		</rect>
+  	</svg>
+  	<svg class="Retngulo_9">
+  		<rect id="Retngulo_9" rx="0" ry="0" x="0" y="0" width="1920" height="1079">
+  		</rect>
+  	</svg>
+  	<svg class="Retngulo_4">
+  		<rect id="Retngulo_4" rx="0" ry="0" x="0" y="0" width="1920" height="1079">
+  		</rect>
+  	</svg>
+  	<svg class="Retngulo_10">
+  		<rect id="Retngulo_10" rx="0" ry="0" x="0" y="0" width="1920" height="1079">
+  		</rect>
+  	</svg>
+  	<svg class="Retngulo_18">
+  		<rect id="Retngulo_18" rx="0" ry="0" x="0" y="0" width="1920" height="1423">
+  		</rect>
+  	</svg>
+  	<svg class="Retngulo_2">
+  		<rect id="Retngulo_2" rx="0" ry="0" x="0" y="0" width="1920" height="130">
+  		</rect>
+  	</svg>
+  	<svg class="Retngulo_17">
+  		<rect id="Retngulo_17" rx="0" ry="0" x="0" y="0" width="1920" height="500">
+  		</rect>
+  	</svg>
+  	<svg class="Retngulo_19">
+  		<rect id="Retngulo_19" rx="0" ry="0" x="0" y="0" width="1920" height="400">
+  		</rect>
+  	</svg>
+  	<div id="Copyrights">
+  		<svg class="Icon_material-copyright" viewBox="3 3 25 25">
+  			<path id="Icon_material-copyright" d="M 13.09999942779541 14.07500076293945 C 13.16249942779541 13.66250038146973 13.29999923706055 13.30000019073486 13.47499942779541 12.98750019073486 C 13.64999961853027 12.67500019073486 13.89999961853027 12.41250038146973 14.21249961853027 12.21249961853027 C 14.51249980926514 12.02499961853027 14.88749885559082 11.9375 15.34999942779541 11.92500019073486 C 15.63749885559082 11.9375 15.89999961853027 11.98749923706055 16.13749885559082 12.08749961853027 C 16.38749885559082 12.19999980926514 16.61249923706055 12.34999942779541 16.78750038146973 12.53749942779541 C 16.96249961853027 12.72499942779541 17.10000038146973 12.94999980926514 17.21249961853027 13.19999980926514 C 17.32500076293945 13.44999980926514 17.375 13.72499942779541 17.38749885559082 13.99999904632568 L 19.62499809265137 13.99999904632568 C 19.59999847412109 13.41249847412109 19.48749732971191 12.87499809265137 19.27499771118164 12.38749885559082 C 19.0625 11.89999961853027 18.77499771118164 11.47499942779541 18.39999961853027 11.12499904632568 C 18.02499961853027 10.77499866485596 17.57499885559082 10.49999904632568 17.04999923706055 10.29999923706055 C 16.52499771118164 10.09999942779541 15.94999885559082 10.01249885559082 15.31249809265137 10.01249885559082 C 14.49999713897705 10.01249885559082 13.78749752044678 10.14999866485596 13.18749809265137 10.43749904632568 C 12.58749771118164 10.72499942779541 12.08749771118164 11.09999942779541 11.68749713897705 11.58749961853027 C 11.28749752044678 12.07499885559082 10.98749732971191 12.63749980926514 10.79999732971191 13.28749942779541 C 10.6124963760376 13.9375 10.5 14.61249923706055 10.5 15.33749961853027 L 10.5 15.67500019073486 C 10.5 16.40000152587891 10.59999942779541 17.07500076293945 10.78750038146973 17.72500038146973 C 10.97500038146973 18.37500190734863 11.27499961853027 18.93750190734863 11.67499923706055 19.41250038146973 C 12.07499885559082 19.88750076293945 12.57499980926514 20.27500152587891 13.17500019073486 20.55000114440918 C 13.77499961853027 20.82500076293945 14.48749923706055 20.97500038146973 15.30000019073486 20.97500038146973 C 15.88749980926514 20.97500038146973 16.4375 20.875 16.94999885559082 20.68750190734863 C 17.46249961853027 20.50000190734863 17.91250038146973 20.23750114440918 18.29999923706055 19.90000152587891 C 18.6875 19.56250190734863 19 19.17500114440918 19.22500038146973 18.72500228881836 C 19.45000076293945 18.27500343322754 19.58749961853027 17.80000114440918 19.60000038146973 17.28750228881836 L 17.36250114440918 17.28750228881836 C 17.35000228881836 17.55000114440918 17.28750228881836 17.78750228881836 17.17500114440918 18.01250267028809 C 17.06250190734863 18.23750305175781 16.91250038146973 18.42500305175781 16.72500038146973 18.58750343322754 C 16.53750038146973 18.75000190734863 16.32500076293945 18.87500190734863 16.07500076293945 18.96250343322754 C 15.83750057220459 19.05000305175781 15.58750057220459 19.07500267028809 15.32500076293945 19.08750343322754 C 14.875 19.07500267028809 14.50000095367432 18.98750305175781 14.21250152587891 18.80000305175781 C 13.90000152587891 18.60000419616699 13.65000152587891 18.33750343322754 13.47500133514404 18.02500343322754 C 13.30000114440918 17.71250343322754 13.16250133514404 17.33750343322754 13.10000133514404 16.92500305175781 C 13.03750133514404 16.51250457763672 13.00000095367432 16.08750534057617 13.00000095367432 15.67500400543213 L 13.00000095367432 15.33750343322754 C 13.00000095367432 14.90000343322754 13.03750133514404 14.48750305175781 13.10000133514404 14.0750036239624 Z M 15.5 3 C 8.600000381469727 3 3 8.600000381469727 3 15.5 C 3 22.39999771118164 8.59999942779541 28 15.5 28 C 22.39999961853027 28 28 22.39999961853027 28 15.5 C 28 8.59999942779541 22.39999961853027 3 15.5 3 Z M 15.5 25.5 C 9.987500190734863 25.5 5.5 21.01249885559082 5.5 15.5 C 5.5 9.987500190734863 9.987500190734863 5.5 15.5 5.5 C 21.01249885559082 5.5 25.5 9.987500190734863 25.5 15.5 C 25.5 21.01249885559082 21.01249885559082 25.5 15.5 25.5 Z">
+  			</path>
+  		</svg>
+  		<div id="__2020_Reserved_by_Deloitte">
+  			<span>  2020 Reserved by Deloitte.</span>
+  		</div>
+  	</div>
+  	<div id="Segue-nos">
+  		<span>Segue-nos</span>
+  	</div>
+  	<svg class="Retngulo_29">
+  		<rect id="Retngulo_29" rx="10" ry="10" x="0" y="0" width="60" height="60">
+  		</rect>
+  	</svg>
+  	<svg class="Retngulo_30">
+  		<rect id="Retngulo_30" rx="10" ry="10" x="0" y="0" width="60" height="60">
+  		</rect>
+  	</svg>
+  	<svg class="Retngulo_31">
+  		<rect id="Retngulo_31" rx="10" ry="10" x="0" y="0" width="60" height="60">
+  		</rect>
+  	</svg>
+  	<svg class="Retngulo_33">
+  		<rect id="Retngulo_33" rx="10" ry="10" x="0" y="0" width="60" height="60">
+  		</rect>
+  	</svg>
+  	<svg class="Icon_awesome-facebook-f" viewBox="1.609 0 13.39 25"><a href="https://www.facebook.com/DeloittePortugal/" target="_blank">
+  		<path id="Icon_awesome-facebook-f" d="M 14.12166023254395 14.0625 L 14.81599617004395 9.5380859375 L 10.47468757629395 9.5380859375 L 10.47468757629395 6.602051258087158 C 10.47468757629395 5.364258289337158 11.08113288879395 4.157715320587158 13.02546787261963 4.157715320587158 L 14.99910163879395 4.157715320587158 L 14.99910163879395 0.3056640625 C 14.99910163879395 0.3056640625 13.20808696746826 0 11.49568367004395 0 C 7.920487403869629 0 5.583574295043945 2.1669921875 5.583574295043945 6.089843273162842 L 5.583574295043945 9.5380859375 L 1.609452962875366 9.5380859375 L 1.609452962875366 14.0625 L 5.583574295043945 14.0625 L 5.583574295043945 25 L 10.47468757629395 25 L 10.47468757629395 14.0625 L 14.12166023254395 14.0625 Z">
+  		</path>
+  	</svg>
+  	<svg class="Icon_awesome-twitter" viewBox="0 3.381 25 20.305"><a href="https://twitter.com/deloitte" target="_blank">
+  		<path id="Icon_awesome-twitter" d="M 22.43026351928711 8.441038131713867 C 22.44613265991211 8.66310977935791 22.44613265991211 8.88523006439209 22.44613265991211 9.107300758361816 C 22.44613265991211 15.88076496124268 17.29069137573242 23.68538475036621 7.86804723739624 23.68538475036621 C 4.96510648727417 23.68538475036621 2.268416404724121 22.8446102142334 -9.5367431640625e-07 21.38527679443359 C 0.412451833486557 21.43283653259277 0.8089866042137146 21.44870567321777 1.237308621406555 21.44870567321777 C 3.63258171081543 21.44870567321777 5.837570190429688 20.63971710205078 7.598368644714355 19.25963401794434 C 5.345820426940918 19.21202659606934 3.458118200302124 17.73677635192871 2.807724952697754 15.70629978179932 C 3.125011205673218 15.7538595199585 3.442249059677124 15.78559684753418 3.775404453277588 15.78559684753418 C 4.235415935516357 15.78559684753418 4.695476531982422 15.72212028503418 5.123749256134033 15.61113357543945 C 2.776035308837891 15.13520431518555 1.015188694000244 13.07303714752197 1.015188694000244 10.58255004882813 L 1.015188694000244 10.51912117004395 C 1.697271466255188 10.89983558654785 2.490487337112427 11.13777637481689 3.331164836883545 11.16946601867676 C 1.951081156730652 10.24939346313477 1.046927332878113 8.678977012634277 1.046927332878113 6.902309894561768 C 1.046927332878113 5.950548648834229 1.300688028335571 5.078084468841553 1.744879245758057 4.316655158996582 C 4.267105579376221 7.425798416137695 8.058381080627441 9.456226348876953 12.30961799621582 9.678346633911133 C 12.23032093048096 9.297632217407227 12.18271255493164 8.901097297668457 12.18271255493164 8.504513740539551 C 12.18271255493164 5.680869579315186 14.46699905395508 3.380763053894043 17.30646324157715 3.380763053894043 C 18.78171348571777 3.380763053894043 20.11418914794922 3.999417781829834 21.05013084411621 4.998786926269531 C 22.20809364318848 4.776715755462646 23.3184986114502 4.34839391708374 24.30204772949219 3.761477470397949 C 23.92128372192383 4.951228618621826 23.11229705810547 5.950597763061523 22.04949951171875 6.58507251739502 C 23.08060836791992 6.474086284637451 24.07997512817383 6.188488960266113 25 5.791954517364502 C 24.30214500427246 6.807143688201904 23.42963027954102 7.711297988891602 22.43026351928711 8.441037178039551 Z">
+  		</path>
+  	</svg>
+  	<div id="Icon_feather-instagram"><a href="https://www.instagram.com/deloitteportugal/?hl=pt" target="_blank">
+  		<svg class="Caminho_1" viewBox="3 3 25 25">
+  			<path id="Caminho_1" d="M 9.25 3 L 21.75 3 C 25.20177841186523 3.000000715255737 28 5.798221111297607 28 9.250000953674316 L 28 21.75 C 28 25.20177841186523 25.20177841186523 28 21.75 28 L 9.25 28 C 5.798221111297607 28 3.000000715255737 25.20177841186523 3.000000715255737 21.75 L 3 9.25 C 3.000000715255737 5.798221111297607 5.798221588134766 3 9.250000953674316 3.000000715255737 Z">
+  			</path>
+  		</svg>
+  		<svg class="Caminho_2" viewBox="12.065 11.935 10 10">
+  			<path id="Caminho_2" d="M 22.01078987121582 16.20163726806641 C 22.32719230651855 18.33535385131836 21.23957061767578 20.43144416809082 19.31282043457031 21.4012279510498 C 17.38607215881348 22.37101554870605 15.05459880828857 21.995849609375 13.52933692932129 20.4705867767334 C 12.00407600402832 18.94532585144043 11.62891006469727 16.61385154724121 12.5986967086792 14.68710327148438 C 13.56848239898682 12.76035499572754 15.66457271575928 11.67273330688477 17.79828643798828 11.98913764953613 C 19.97701072692871 12.31221389770508 21.68771362304688 14.02291488647461 22.01078987121582 16.20163917541504 Z">
+  			</path>
+  		</svg>
+  		<svg class="Caminho_3" viewBox="26.25 9.75 3 3">
+  			<path id="Caminho_3" d="M 26.25 9.75 L 26.25 9.75">
+  			</path>
+  		</svg>
+  	</div>
+  	<svg class="Icon_awesome-youtube" viewBox="1.05 4.5 27 18.984"><a href="https://www.youtube.com/user/deloitteportugal" target="_blank">
+  		<path id="Icon_awesome-youtube" d="M 27.48578643798828 7.470407485961914 C 27.17526245117188 6.30118989944458 26.26035308837891 5.380349636077881 25.09869956970215 5.067849159240723 C 22.99311828613281 4.5 14.54997730255127 4.5 14.54997730255127 4.5 C 14.54997730255127 4.5 6.106884002685547 4.5 4.001251697540283 5.067849159240723 C 2.839597463607788 5.380399703979492 1.924690246582031 6.30118989944458 1.6141676902771 7.470408916473389 C 1.049976348876953 9.589685440063477 1.049976348876953 14.01135921478271 1.049976348876953 14.01135921478271 C 1.049976348876953 14.01135921478271 1.049976348876953 18.43303108215332 1.6141676902771 20.55230712890625 C 1.924690246582031 21.72152709960938 2.839597463607788 22.60400199890137 4.001251697540283 22.91650009155273 C 6.106884002685547 23.48435211181641 14.54997730255127 23.48435211181641 14.54997730255127 23.48435211181641 C 14.54997730255127 23.48435211181641 22.99306869506836 23.48435211181641 25.09869956970215 22.91650009155273 C 26.26035308837891 22.60400009155273 27.17526054382324 21.72152328491211 27.48578643798828 20.55230522155762 C 28.04997444152832 18.43303108215332 28.04997444152832 14.01135921478271 28.04997444152832 14.01135921478271 C 28.04997444152832 14.01135921478271 28.04997444152832 9.589685440063477 27.48578643798828 7.470408916473389 Z M 11.78859329223633 18.02590179443359 L 11.78859329223633 9.996810913085938 L 18.84538269042969 14.01145839691162 L 11.78859424591064 18.02590560913086 Z">
+  		</path>
+  	</svg>
+  	<div id="Address">
+  		<div id="Praa_do_Bom_Sucesso_Porto_22_5">
+  			<span>Praça do Bom Sucesso, Porto<br/>22 543 9200</span>
+  		</div>
+  		<div id="layer1">
+  			<div id="g3359">
+  				<div id="g3371">
+  					<svg class="path3356" viewBox="16602.342 5272.1 11.49 11.488">
+  						<path id="path3356" d="M 16602.341796875 5277.8447265625 C 16602.341796875 5274.6728515625 16604.916015625 5272.099609375 16608.087890625 5272.099609375 C 16611.259765625 5272.099609375 16613.83203125 5274.6728515625 16613.83203125 5277.8447265625 C 16613.83203125 5281.0166015625 16611.259765625 5283.587890625 16608.087890625 5283.587890625 C 16604.916015625 5283.587890625 16602.341796875 5281.0166015625 16602.341796875 5277.8447265625">
+  						</path>
+  					</svg>
+  					<svg class="path3360" viewBox="15763.43 5154.124 32.929 39.726">
+  						<path id="path3360" d="M 15785.4794921875 5173.5244140625 C 15785.4794921875 5169.88525390625 15784.7763671875 5167.185546875 15783.3701171875 5165.42626953125 C 15781.962890625 5163.66943359375 15779.8291015625 5162.79150390625 15776.9619140625 5162.79150390625 L 15773.912109375 5162.79150390625 L 15773.912109375 5185.04443359375 L 15776.2451171875 5185.04443359375 C 15779.4306640625 5185.04443359375 15781.763671875 5184.1005859375 15783.2509765625 5182.205078125 C 15784.734375 5180.3134765625 15785.4794921875 5177.4189453125 15785.4794921875 5173.52392578125 M 15796.3583984375 5173.14453125 C 15796.3583984375 5179.7744140625 15794.5751953125 5184.88330078125 15791.0126953125 5188.46875 C 15787.4482421875 5192.056640625 15782.4384765625 5193.85009765625 15775.978515625 5193.85009765625 L 15763.4296875 5193.85009765625 L 15763.4296875 5154.1240234375 L 15776.8544921875 5154.1240234375 C 15783.0830078125 5154.1240234375 15787.890625 5155.75439453125 15791.2783203125 5159.0146484375 C 15794.6650390625 5162.2763671875 15796.3583984375 5166.98388671875 15796.3583984375 5173.14453125">
+  						</path>
+  					</svg>
+  					<svg class="path3362" viewBox="16040.061 5153.44 9.986 39.893">
+  						<path id="path3362" d="M 16040.060546875 5193.3330078125 L 16050.046875 5193.3330078125 L 16050.046875 5153.4404296875 L 16040.060546875 5153.4404296875 L 16040.060546875 5193.3330078125 Z">
+  						</path>
+  					</svg>
+  					<svg class="path3366" viewBox="16096.771 5193.228 28.884 30.68">
+  						<path id="path3366" d="M 16106.9111328125 5208.50390625 C 16106.9111328125 5211.04736328125 16107.2431640625 5212.98779296875 16107.9072265625 5214.32080078125 C 16108.572265625 5215.65576171875 16109.685546875 5216.322265625 16111.251953125 5216.322265625 C 16112.8017578125 5216.322265625 16113.8974609375 5215.65576171875 16114.5361328125 5214.32080078125 C 16115.1728515625 5212.98779296875 16115.4912109375 5211.04736328125 16115.4912109375 5208.50390625 C 16115.4912109375 5205.9736328125 16115.16796875 5204.0654296875 16114.5224609375 5202.77685546875 C 16113.873046875 5201.4853515625 16112.767578125 5200.8388671875 16111.2001953125 5200.8388671875 C 16109.6669921875 5200.8388671875 16108.572265625 5201.48193359375 16107.9072265625 5202.76220703125 C 16107.2431640625 5204.0439453125 16106.9111328125 5205.95703125 16106.9111328125 5208.50390625 M 16125.654296875 5208.50390625 C 16125.654296875 5213.349609375 16124.384765625 5217.1298828125 16121.837890625 5219.83984375 C 16119.2919921875 5222.55078125 16115.7294921875 5223.90771484375 16111.150390625 5223.90771484375 C 16106.7578125 5223.90771484375 16103.2626953125 5222.521484375 16100.6669921875 5219.74853515625 C 16098.068359375 5216.9755859375 16096.7705078125 5213.228515625 16096.7705078125 5208.50390625 C 16096.7705078125 5203.6728515625 16098.0419921875 5199.9189453125 16100.5888671875 5197.24267578125 C 16103.1357421875 5194.56640625 16106.70703125 5193.22802734375 16111.3046875 5193.22802734375 C 16114.1455078125 5193.22802734375 16116.6591796875 5193.84814453125 16118.8369140625 5195.08642578125 C 16121.0166015625 5196.3251953125 16122.69921875 5198.0986328125 16123.880859375 5200.40966796875 C 16125.0634765625 5202.71728515625 16125.654296875 5205.4169921875 16125.654296875 5208.50390625">
+  						</path>
+  					</svg>
+  					<svg class="path3370" viewBox="16231.039 5195.37 9.987 29.633">
+  						<path id="path3370" d="M 16231.0390625 5225.00244140625 L 16241.0263671875 5225.00244140625 L 16241.0263671875 5209.73486328125 L 16241.0263671875 5195.36962890625 L 16231.0390625 5195.36962890625 L 16231.0390625 5225.00244140625 Z">
+  						</path>
+  					</svg>
+  					<svg class="path3372" viewBox="16231.039 5153.435 9.987 6.678">
+  						<path id="path3372" d="M 16231.0390625 5160.11279296875 L 16241.0263671875 5160.11279296875 L 16241.0263671875 5153.43505859375 L 16231.0390625 5153.43505859375 L 16231.0390625 5160.11279296875 Z">
+  						</path>
+  					</svg>
+  					<svg class="path3376" viewBox="16288.043 5157.304 21.093 39.471">
+  						<path id="path3376" d="M 16304.3095703125 5188.693359375 C 16305.6572265625 5188.693359375 16307.2626953125 5188.3505859375 16309.1357421875 5187.6708984375 L 16309.1357421875 5195.126953125 C 16307.7900390625 5195.71875 16306.5107421875 5196.142578125 16305.29296875 5196.3935546875 C 16304.0771484375 5196.6474609375 16302.6484375 5196.7744140625 16301.0146484375 5196.7744140625 C 16297.6611328125 5196.7744140625 16295.244140625 5195.931640625 16293.7587890625 5194.2490234375 C 16292.2822265625 5192.56640625 16291.5400390625 5189.9833984375 16291.5400390625 5186.4970703125 L 16291.5400390625 5174.2822265625 L 16288.04296875 5174.2822265625 L 16288.04296875 5166.6220703125 L 16291.5400390625 5166.6220703125 L 16291.5400390625 5159.0546875 L 16301.603515625 5157.3037109375 L 16301.603515625 5166.6220703125 L 16307.9765625 5166.6220703125 L 16307.9765625 5174.2822265625 L 16301.603515625 5174.2822265625 L 16301.603515625 5185.81640625 C 16301.603515625 5187.734375 16302.5068359375 5188.693359375 16304.3095703125 5188.693359375">
+  						</path>
+  					</svg>
+  					<svg class="path3380" viewBox="16382.492 5157.304 21.096 39.471">
+  						<path id="path3380" d="M 16398.759765625 5188.693359375 C 16400.109375 5188.693359375 16401.71484375 5188.3505859375 16403.587890625 5187.6708984375 L 16403.587890625 5195.126953125 C 16402.244140625 5195.71875 16400.9609375 5196.142578125 16399.74609375 5196.3935546875 C 16398.525390625 5196.6474609375 16397.103515625 5196.7744140625 16395.462890625 5196.7744140625 C 16392.11328125 5196.7744140625 16389.6953125 5195.931640625 16388.212890625 5194.2490234375 C 16386.732421875 5192.56640625 16385.990234375 5189.9833984375 16385.990234375 5186.4970703125 L 16385.990234375 5174.2822265625 L 16382.4921875 5174.2822265625 L 16382.4921875 5166.6220703125 L 16385.990234375 5166.6220703125 L 16385.990234375 5158.939453125 L 16396.0546875 5157.3037109375 L 16396.0546875 5166.6220703125 L 16402.4296875 5166.6220703125 L 16402.4296875 5174.2822265625 L 16396.0546875 5174.2822265625 L 16396.0546875 5185.81640625 C 16396.0546875 5187.734375 16396.95703125 5188.693359375 16398.759765625 5188.693359375">
+  						</path>
+  					</svg>
+  					<svg class="path3384" viewBox="16478.158 5193.234 27.941 30.678">
+  						<path id="path3384" d="M 16488.453125 5204.8994140625 C 16488.587890625 5203.27685546875 16489.052734375 5202.087890625 16489.841796875 5201.32861328125 C 16490.638671875 5200.5703125 16491.619140625 5200.19189453125 16492.79296875 5200.19189453125 C 16494.0703125 5200.19189453125 16495.08984375 5200.61669921875 16495.84375 5201.47509765625 C 16496.60546875 5202.32763671875 16497 5203.47021484375 16497.03125 5204.8994140625 L 16488.451171875 5204.8994140625 Z M 16502.53515625 5196.72705078125 C 16500.162109375 5194.39990234375 16496.79296875 5193.234375 16492.435546875 5193.234375 C 16487.857421875 5193.234375 16484.33203125 5194.57275390625 16481.86328125 5197.2490234375 C 16479.392578125 5199.92578125 16478.158203125 5203.765625 16478.158203125 5208.76953125 C 16478.158203125 5213.615234375 16479.494140625 5217.35205078125 16482.15625 5219.97607421875 C 16484.822265625 5222.59912109375 16488.5625 5223.912109375 16493.384765625 5223.912109375 C 16495.6953125 5223.912109375 16497.689453125 5223.75439453125 16499.357421875 5223.43994140625 C 16501.017578125 5223.12939453125 16502.623046875 5222.5673828125 16504.1796875 5221.75634765625 L 16502.64453125 5215.078125 C 16501.513671875 5215.54052734375 16500.435546875 5215.896484375 16499.41796875 5216.130859375 C 16497.94921875 5216.47119140625 16496.337890625 5216.642578125 16494.58203125 5216.642578125 C 16492.65625 5216.642578125 16491.13671875 5216.171875 16490.021484375 5215.2314453125 C 16488.908203125 5214.2890625 16488.31640625 5212.98828125 16488.24609375 5211.3330078125 L 16506.099609375 5211.3330078125 L 16506.099609375 5206.783203125 C 16506.099609375 5202.40576171875 16504.912109375 5199.052734375 16502.53515625 5196.72705078125">
+  						</path>
+  					</svg>
+  					<svg class="path3388" viewBox="15910.113 5193.234 27.94 30.678">
+  						<path id="path3388" d="M 15920.4072265625 5204.8994140625 C 15920.54296875 5203.27685546875 15921.0078125 5202.087890625 15921.798828125 5201.32861328125 C 15922.591796875 5200.5703125 15923.5732421875 5200.19189453125 15924.7490234375 5200.19189453125 C 15926.0263671875 5200.19189453125 15927.04296875 5200.61669921875 15927.798828125 5201.47509765625 C 15928.560546875 5202.32763671875 15928.953125 5203.47021484375 15928.98828125 5204.8994140625 L 15920.4072265625 5204.8994140625 Z M 15934.4931640625 5196.72705078125 C 15932.1181640625 5194.39990234375 15928.75 5193.234375 15924.3916015625 5193.234375 C 15919.8095703125 5193.234375 15916.287109375 5194.57275390625 15913.8193359375 5197.2490234375 C 15911.3505859375 5199.92578125 15910.11328125 5203.765625 15910.11328125 5208.76953125 C 15910.11328125 5213.615234375 15911.447265625 5217.35205078125 15914.11328125 5219.97607421875 C 15916.775390625 5222.59912109375 15920.5185546875 5223.912109375 15925.3369140625 5223.912109375 C 15927.65234375 5223.912109375 15929.6435546875 5223.75439453125 15931.3125 5223.43994140625 C 15932.97265625 5223.12939453125 15934.5771484375 5222.5673828125 15936.13671875 5221.75634765625 L 15934.6005859375 5215.078125 C 15933.46875 5215.54052734375 15932.390625 5215.896484375 15931.3759765625 5216.130859375 C 15929.90234375 5216.47119140625 15928.2919921875 5216.642578125 15926.53515625 5216.642578125 C 15924.61328125 5216.642578125 15923.0927734375 5216.171875 15921.9775390625 5215.2314453125 C 15920.8623046875 5214.2890625 15920.26953125 5212.98828125 15920.203125 5211.3330078125 L 15938.0537109375 5211.3330078125 L 15938.0537109375 5206.783203125 C 15938.0537109375 5202.40576171875 15936.8662109375 5199.052734375 15934.4931640625 5196.72705078125">
+  						</path>
+  					</svg>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="Contact_Us_Section">
+  		<div id="Header_Text">
+  			<div id="Inscreve-te">
+  				<a id="pagina_inscrevete">Inscreve-te</a>
+  			</div>
+  			<svg class="Linha_10" viewBox="0 0 200 8">
+  				<path id="Linha_10" d="M 0 0 L 200 0">
+  				</path>
+  			</svg>
+  		</div>
+  		<div id="Contact_Form">
+  			<svg class="Retngulo_24">
+  				<rect id="Retngulo_24" rx="0" ry="0" x="0" y="0" width="300" height="100">
+  				</rect>
+  			</svg>
+  			<div id="Submeter">
+  				<span>Submeter</span>
+  			</div>
+  			<svg class="Icon_ionic-md-send" viewBox="3.375 4.5 29.25 27">
+  				<path id="Icon_ionic-md-send" d="M 3.375 31.5 L 32.625 18 L 3.375 4.5 L 3.375 14.99997615814209 L 24.328125 18 L 3.375 21.00002288818359 L 3.375 31.5 Z">
+  				</path>
+  			</svg>
+  			<div id="Grupo_188">
+  				<svg class="Retngulo_20">
+  					<rect id="Retngulo_20" rx="0" ry="0" x="0" y="0" width="600" height="100">
+  					</rect>
+  				</svg>
+  				<svg class="Retngulo_21">
+  					<rect id="Retngulo_21" rx="0" ry="0" x="0" y="0" width="600" height="100">
+  					</rect>
+  				</svg>
+  				<svg class="Retngulo_22">
+  					<rect id="Retngulo_22" rx="0" ry="0" x="0" y="0" width="1258" height="100">
+  					</rect>
+  				</svg>
+  				<svg class="Retngulo_23">
+  					<rect id="Retngulo_23" rx="0" ry="0" x="0" y="0" width="1258" height="350">
+  					</rect>
+  				</svg>
+  				<div id="Primeiro_Nome">
+  					<span>Primeiro Nome</span>
+  				</div>
+  				<div id="Conta-nos_a_tua_experiencia">
+  					<span>Conta-nos a tua experiencia.</span>
+  				</div>
+  				<div id="Escola">
+  					<span>Escola</span>
+  				</div>
+  				<div id="Ultimo_Nome">
+  					<span>Ultimo Nome</span>
+  				</div>
+  			</div>
+  			<svg class="Icon_material-texture" viewBox="5.031 5.031 28.708 28.708">
+  				<path id="Icon_material-texture" d="M 31.35164642333984 5.031088829040527 L 5.031088829040527 31.35164642333984 C 5.175267696380615 31.89632034301758 5.463624000549316 32.39293670654297 5.848099708557129 32.79343032836914 C 6.248595237731934 33.17790603637695 6.745209693908691 33.46626281738281 7.289882659912109 33.61043930053711 L 33.62646484375 7.289883613586426 C 33.32208633422852 6.184515953063965 32.45701599121094 5.319446086883545 31.35164642333984 5.031088829040527 Z M 30.53463745117188 33.73859786987305 C 31.41572761535645 33.73859786987305 32.21671676635742 33.38616180419922 32.79343032836914 32.79343032836914 C 33.38616180419922 32.21671676635742 33.73859786987305 31.41572761535645 33.73859786987305 30.53463745117188 L 33.73859786987305 27.33067512512207 L 27.33067512512207 33.73859786987305 L 30.53463745117188 33.73859786987305 Z M 14.97939682006836 33.73859786987305 L 19.51300239562988 33.73859786987305 L 33.73859786987305 19.51300239562988 L 33.73859786987305 14.97939682006836 L 14.97939682006836 33.73859786987305 Z">
+  				</path>
+  			</svg>
+  		</div>
+  	</div>
+  	<div id="Alguma_duvida">
+  		<span>Alguma duvida?</span>
+  	</div>
+  	<div id="Fala_connosco">
+  		<span>Fala connosco!</span>
+  	</div>
+  	<div id="Grupo_187">
+  		<svg class="Retngulo_26">
+  			<rect id="Retngulo_26" rx="0" ry="0" x="0" y="0" width="600" height="100">
+  			</rect>
+  		</svg>
+  		<svg class="Retngulo_27">
+  			<rect id="Retngulo_27" rx="0" ry="0" x="0" y="0" width="350" height="100">
+  			</rect>
+  		</svg>
+  		<div id="Enviar">
+  			<span>Enviar</span>
+  		</div>
+  		<div id="O_teu_endereo_de_e-mail">
+  			<span>O teu endereço de e-mail</span>
+  		</div>
+  	</div>
+  	<div id="Testimonials_Section">
+  		<svg class="Retngulo_35">
+  			<rect id="Retngulo_35" rx="0" ry="0" x="0" y="0" width="1189" height="493">
+  			</rect>
+  		</svg>
+  		<div id="Testimonial_Text">
+  			<div id="A_melhor_oportunidade_que_tive">
+  				<span>A melhor oportunidade que tive na minha vida, desde que entrei a minha vida mudou completamente.</span>
+  			</div>
+  			<div id="Eduardo_Filipe">
+  				<span>Eduardo Filipe</span>
+  			</div>
+  			<div id="Aluno_de_DWDM__Brigthstart">
+  				<span>Aluno de DWDM@ Brigthstart</span>
+  			</div>
+  			<svg class="Icon_awesome-quote-right" viewBox="0 2.25 36 31.5">
+  				<path id="Icon_awesome-quote-right" d="M 32.625 2.25 L 23.625 2.25 C 21.76171875 2.25 20.25 3.76171875 20.25 5.625 L 20.25 14.625 C 20.25 16.48828125 21.76171875 18 23.625 18 L 29.25 18 L 29.25 22.5 C 29.25 24.98203086853027 27.23203086853027 27 24.75 27 L 24.1875 27 C 23.25234413146973 27 22.5 27.75234413146973 22.5 28.6875 L 22.5 32.0625 C 22.5 32.99765777587891 23.25234413146973 33.75 24.1875 33.75 L 24.75 33.75 C 30.96562576293945 33.75 36 28.71562576293945 36 22.5 L 36 5.625 C 36 3.76171875 34.48828125 2.25 32.625 2.25 Z M 12.375 2.25 L 3.375 2.25 C 1.51171875 2.25 0 3.76171875 0 5.625 L 0 14.625 C 0 16.48828125 1.51171875 18 3.375 18 L 9 18 L 9 22.5 C 9 24.98203086853027 6.982031345367432 27 4.5 27 L 3.9375 27 C 3.002343654632568 27 2.25 27.75234413146973 2.25 28.6875 L 2.25 32.0625 C 2.25 32.99765777587891 3.002343654632568 33.75 3.9375 33.75 L 4.5 33.75 C 10.71562480926514 33.75 15.75 28.71562576293945 15.75 22.5 L 15.75 5.625 C 15.75 3.76171875 14.23828125 2.25 12.375 2.25 Z">
+  				</path>
+  			</svg>
+  			<svg class="Icon_awesome-quote-right_cg" viewBox="0 2.25 36 31.5">
+  				<path id="Icon_awesome-quote-right_cg" d="M 3.375 33.75 L 12.375 33.75 C 14.23828125 33.75 15.75 32.23828125 15.75 30.375 L 15.75 21.375 C 15.75 19.51171875 14.23828125 18 12.375 18 L 6.75 18 L 6.75 13.5 C 6.75 11.01796913146973 8.767969131469727 9 11.25 9 L 11.8125 9 C 12.74765586853027 9 13.5 8.247655868530273 13.5 7.3125 L 13.5 3.9375 C 13.5 3.002342224121094 12.74765586853027 2.25 11.8125 2.25 L 11.25 2.25 C 5.034374237060547 2.25 0 7.284374237060547 0 13.5 L 0 30.375 C 0 32.23828125 1.51171875 33.75 3.375 33.75 Z M 23.625 33.75 L 32.625 33.75 C 34.48828125 33.75 36 32.23828125 36 30.375 L 36 21.375 C 36 19.51171875 34.48828125 18 32.625 18 L 27 18 L 27 13.5 C 27 11.01796913146973 29.01796913146973 9 31.5 9 L 32.0625 9 C 32.99765777587891 9 33.75 8.247655868530273 33.75 7.3125 L 33.75 3.9375 C 33.75 3.002342224121094 32.99765777587891 2.25 32.0625 2.25 L 31.5 2.25 C 25.28437423706055 2.25 20.25 7.284374237060547 20.25 13.5 L 20.25 30.375 C 20.25 32.23828125 21.76171875 33.75 23.625 33.75 Z">
+  				</path>
+  			</svg>
+  			<img id="Grupo_de_mscara_2" src="Grupo_de_mscara_2.png" srcset="Grupo_de_mscara_2.png 1x, Grupo_de_mscara_2@2x.png 2x">
+
+  			</svg>
+  		</div>
+  		<svg class="Icon_awesome-chevron-right" viewBox="1.933 2.648 50 82.39">
+  			<path id="Icon_awesome-chevron-right" d="M 50.60705947875977 47.04486083984375 L 13.93981456756592 83.71192932128906 C 12.1713924407959 85.48033905029297 9.304336547851563 85.48033905029297 7.536103248596191 83.71192932128906 L 3.259477853775024 79.435302734375 C 1.494075536727905 77.66989898681641 1.490679383277893 74.80869293212891 3.251931428909302 73.03913879394531 L 32.31136322021484 43.84291458129883 L 3.251930713653564 14.64688301086426 C 1.490679025650024 12.87732887268066 1.494075179100037 10.01612091064453 3.259477138519287 8.250717163085938 L 7.536103248596191 3.974092245101929 C 9.304524421691895 2.205670833587646 12.17158126831055 2.205670833587646 13.93981456756592 3.974092245101929 L 50.60687255859375 40.64115142822266 C 52.37528991699219 42.40938186645508 52.37528991699219 45.27643966674805 50.60705947875977 47.04486083984375 Z">
+  			</path>
+  		</svg>
+  		<svg class="Icon_awesome-chevron-right_cj" viewBox="1.933 2.648 50 82.39">
+  			<path id="Icon_awesome-chevron-right_cj" d="M 3.259349822998047 47.04468536376953 L 39.92645263671875 83.71160125732422 C 41.69486618041992 85.48000335693359 44.56191253662109 85.48000335693359 46.33013916015625 83.71160125732422 L 50.60674667358398 79.43498992919922 C 52.37214279174805 77.66959381103516 52.37553787231445 74.80840301513672 50.61429214477539 73.03885650634766 L 21.55497360229492 43.84275054931641 L 50.61429214477539 14.64683532714844 C 52.37553787231445 12.87728786468506 52.37214279174805 10.01609134674072 50.60674667358398 8.250694274902344 L 46.33013916015625 3.974086761474609 C 44.56172180175781 2.2056725025177 41.69467926025391 2.2056725025177 39.92645263671875 3.974086761474609 L 3.259536743164063 40.64099884033203 C 1.491127014160156 42.40922546386719 1.491127014160156 45.27627182006836 3.259349822998047 47.04468536376953 Z">
+  			</path>
+  		</svg>
+  		<div id="Header_Text_ck">
+  			<div id="Testemunhos">
+  				<a id="pagina_testemunhos">Testemunhos</a>
+  			</div>
+  			<svg class="Linha_9" viewBox="0 0 200 8">
+  				<path id="Linha_9" d="M 0 0 L 200 0">
+  				</path>
+  			</svg>
+  		</div>
+  	</div>
+  	<div id="Latest_News">
+  		<div id="Onde_Estamos">
+  			<a id="pagina_ondeestamos">Onde Estamos</a>
+  		</div>
+  		<svg class="Linha_8" viewBox="0 0 200 8">
+  			<path id="Linha_8" d="M 0 0 L 200 0">
+  			</path>
+  		</svg>
+  	</div>
+  	<div id="Features_Section">
+  		<div id="Feature_1">
+  			<div id="A_ajuda_est_sempre_disponvel_d">
+  				<span>A ajuda está sempre disponível desde colegas do ano anterior ou até mesmo profissionais da Deloitte.</span>
+  			</div>
+  			<svg class="Retngulo_6">
+  				<rect id="Retngulo_6" rx="0" ry="0" x="0" y="0" width="250" height="250">
+  				</rect>
+  			</svg>
+  			<div id="lamp">
+  				<svg class="Caminho_163" viewBox="11.25 0 7.5 17.285">
+  					<path id="Caminho_163" d="M 15 17.28499984741211 C 12.93000221252441 17.28499984741211 11.25 15.60500049591064 11.25 13.53499984741211 L 11.25 3.75 C 11.25 1.679999828338623 12.93000221252441 0 15 0 C 17.06999778747559 0 18.75 1.679999828338623 18.75 3.75 L 18.75 13.53499984741211 C 18.75 15.60500049591064 17.06999778747559 17.28499984741211 15 17.28499984741211 Z">
+  					</path>
+  				</svg>
+  				<svg class="Caminho_164" viewBox="17.821 3.294 14.423 14.424">
+  					<path id="Caminho_164" d="M 21.56999206542969 17.71799278259277 C 20.60999488830566 17.71799278259277 19.64999008178711 17.35299491882324 18.91998672485352 16.61799430847168 C 17.45499420166016 15.15299510955811 17.45499420166016 12.77799415588379 18.91998672485352 11.31299781799316 L 25.83998870849609 4.392997741699219 C 27.30498886108398 2.927997589111328 29.67998886108398 2.927997589111328 31.14499664306641 4.392997741699219 C 32.61000442504883 5.857996463775635 32.60999298095703 8.232998847961426 31.14499664306641 9.697996139526367 L 24.2249927520752 16.61799430847168 C 23.4899959564209 17.34799575805664 22.52999114990234 17.71799278259277 21.56999206542969 17.71799278259277 Z">
+  					</path>
+  				</svg>
+  				<svg class="Caminho_165" viewBox="20.543 11.25 17.285 7.5">
+  					<path id="Caminho_165" d="M 34.0780029296875 18.75 L 24.29300308227539 18.75 C 22.22300148010254 18.75 20.54299926757813 17.06999778747559 20.54299926757813 15 C 20.54299926757813 12.93000221252441 22.22300148010254 11.25 24.29300308227539 11.25 L 34.0780029296875 11.25 C 36.14800262451172 11.25 37.8280029296875 12.93000221252441 37.8280029296875 15 C 37.8280029296875 17.06999778747559 36.14800262451172 18.75 34.0780029296875 18.75 Z">
+  					</path>
+  				</svg>
+  				<svg class="Caminho_166" viewBox="17.821 17.82 14.423 14.424">
+  					<path id="Caminho_166" d="M 28.4899959564209 32.24399566650391 C 27.52999877929688 32.24399566650391 26.56999397277832 31.87899017333984 25.83998870849609 31.14399528503418 L 18.91998672485352 24.22399139404297 C 17.45499420166016 22.75899314880371 17.45499420166016 20.38399314880371 18.91998672485352 18.91898536682129 C 20.38498497009277 17.45397758483887 22.75998687744141 17.4539852142334 24.2249927520752 18.91898536682129 L 31.14499664306641 25.8389892578125 C 32.60999298095703 27.30398750305176 32.60999298095703 29.67898750305176 31.14499664306641 31.14399528503418 C 30.40999984741211 31.87899017333984 29.44999504089355 32.24399566650391 28.4899959564209 32.24399566650391 Z">
+  					</path>
+  				</svg>
+  				<svg class="Caminho_167" viewBox="3.295 17.82 14.422 14.424">
+  					<path id="Caminho_167" d="M 7.04400110244751 32.24400329589844 C 6.084001064300537 32.24400329589844 5.123999118804932 31.87899780273438 4.394001007080078 31.14400482177734 C 2.929000854492188 29.67900466918945 2.929000854492188 27.30400276184082 4.394001007080078 25.83899688720703 L 11.31400108337402 18.91899299621582 C 12.77900123596191 17.45399475097656 15.15400123596191 17.45399475097656 16.6190013885498 18.91899299621582 C 18.08399963378906 20.38399124145508 18.0840015411377 22.75899124145508 16.6190013885498 24.22400093078613 L 9.699000358581543 31.14400482177734 C 8.964001655578613 31.87899780273438 8.004001617431641 32.24400329589844 7.04400110244751 32.24400329589844 Z">
+  					</path>
+  				</svg>
+  				<svg class="Caminho_168" viewBox="0 11.25 17.285 7.5">
+  					<path id="Caminho_168" d="M 13.53499984741211 18.75 L 3.75 18.75 C 1.679999828338623 18.75 0 17.06999778747559 0 15 C 0 12.93000221252441 1.679999828338623 11.25 3.75 11.25 L 13.53499984741211 11.25 C 15.60500049591064 11.25 17.28499984741211 12.93000221252441 17.28499984741211 15 C 17.28499984741211 17.06999778747559 15.60500049591064 18.75 13.53499984741211 18.75 Z">
+  					</path>
+  				</svg>
+  				<svg class="Caminho_169" viewBox="3.295 3.294 14.422 14.424">
+  					<path id="Caminho_169" d="M 13.96399593353271 17.71799468994141 C 13.00399875640869 17.71799468994141 12.04399871826172 17.35299491882324 11.31399822235107 16.61799621582031 L 4.393999099731445 9.697997093200684 C 2.92900013923645 8.232996940612793 2.92900013923645 5.857997417449951 4.393999099731445 4.392998695373535 C 5.859000205993652 2.927999496459961 8.234001159667969 2.927998781204224 9.699000358581543 4.392998695373535 L 16.61899757385254 11.31299877166748 C 18.08399963378906 12.77799987792969 18.08399963378906 15.15299701690674 16.61899757385254 16.61799621582031 C 15.87899875640869 17.34799766540527 14.92399787902832 17.71799468994141 13.96399593353271 17.71799468994141 Z">
+  					</path>
+  				</svg>
+  				<svg class="Caminho_170" viewBox="9 21 30 15">
+  					<path id="Caminho_170" d="M 39 21 L 39 27.24999618530273 C 39 32.04999160766602 35.04999923706055 36 30.24999809265137 36 L 17.74999809265137 36 C 13.54999828338623 36 9 32.80000686645508 9 25.79999732971191 L 9 21 L 39 21 Z">
+  					</path>
+  				</svg>
+  				<svg class="Caminho_171" viewBox="4.999 5.001 70.006 72.543">
+  					<path id="Caminho_171" d="M 62.05513381958008 12.79451179504395 C 53.85513305664063 6.144513130187988 43.05514144897461 3.544511318206787 32.50514221191406 5.794510364532471 C 19.2551383972168 8.544511795043945 8.505139350891113 19.34451293945313 5.755141258239746 32.59451293945313 C 2.955142974853516 46.19451141357422 8.055141448974609 59.69451904296875 18.95513916015625 67.94451141357422 C 21.9051399230957 70.14451599121094 23.95513725280762 73.54450988769531 24.65514183044434 77.4945068359375 L 24.65514183044434 77.54450988769531 C 24.7551441192627 77.4945068359375 24.90514373779297 77.4945068359375 25.00514030456543 77.4945068359375 L 55.0051383972168 77.4945068359375 C 55.10513687133789 77.4945068359375 55.15513610839844 77.4945068359375 55.25513458251953 77.54450988769531 L 55.25513458251953 77.4945068359375 C 55.95513916015625 73.69450378417969 58.20513534545898 70.19451141357422 61.65513229370117 67.49451446533203 C 70.10514068603516 60.79451751708984 75.00513458251953 50.79451370239258 75.00513458251953 39.99451065063477 C 75.00513458251953 29.39451217651367 70.30513763427734 19.49451446533203 62.05513381958008 12.79451179504395 Z M 58.7551383972168 42.49451446533203 C 56.70513534545898 42.49451446533203 55.0051383972168 40.79450607299805 55.0051383972168 38.7445068359375 C 55.0051383972168 31.14450836181641 48.85514450073242 24.9945125579834 41.25514221191406 24.9945125579834 C 39.20514297485352 24.9945125579834 37.5051383972168 23.29450988769531 37.5051383972168 21.2445125579834 C 37.5051383972168 19.19451522827148 39.20514297485352 17.4945125579834 41.25514221191406 17.4945125579834 C 52.95513916015625 17.4945125579834 62.5051383972168 27.04450988769531 62.5051383972168 38.7445068359375 C 62.5051383972168 40.79450607299805 60.80513763427734 42.49451446533203 58.7551383972168 42.49451446533203 Z">
+  					</path>
+  				</svg>
+  				<svg class="Caminho_172" viewBox="8.93 19.5 0.35 0.05">
+  					<path id="Caminho_172" d="M 8.930007934570313 19.5 L 9.280003547668457 19.5 C 9.18000316619873 19.5 9.03000545501709 19.5 8.930007934570313 19.55000305175781 L 8.930007934570313 19.5 Z">
+  					</path>
+  				</svg>
+  				<svg class="Caminho_173" viewBox="15 19.5 0.25 0.05">
+  					<path id="Caminho_173" d="M 15.25 19.5 L 15.25 19.55000305175781 C 15.14999771118164 19.5 15.10000038146973 19.5 15 19.5 L 15.25 19.5 Z">
+  					</path>
+  				</svg>
+  			</div>
+  		</div>
+  		<div id="Feature_2">
+  			<div id="No_final_do_programa_ters_form">
+  				<span>No final do programa terás formação académica e profissional em contexto empresarial.</span>
+  			</div>
+  			<svg class="Retngulo_7">
+  				<rect id="Retngulo_7" rx="0" ry="0" x="0" y="0" width="250" height="250">
+  				</rect>
+  			</svg>
+  			<div id="evolution">
+  				<svg class="Caminho_174" viewBox="0 191.706 120 69.831">
+  					<path id="Caminho_174" d="M 112.505744934082 254.5034484863281 L 112.505744934082 191.7059936523438 L 91.41138458251953 191.7059936523438 L 91.41138458251953 254.498046875 L 84.37953948974609 254.4961853027344 L 84.37953948974609 205.7692108154297 L 63.28518295288086 205.7692108154297 L 63.28518295288086 254.4907989501953 L 56.25310516357422 254.4889221191406 L 56.25310516357422 219.8321990966797 L 35.15874862670898 219.8321990966797 L 35.15874862670898 254.4835205078125 L 28.12690353393555 254.4816589355469 L 28.12690353393555 233.8954162597656 L 7.032546520233154 233.8954162597656 L 7.032546520233154 254.4762573242188 L 0.001874970737844706 254.4743957519531 L 0 261.5055236816406 L 119.9981231689453 261.5366821289063 L 120 254.5055541992188 L 112.505744934082 254.5034484863281 Z">
+  					</path>
+  				</svg>
+  				<svg class="Caminho_175" viewBox="64.448 22.353 91.62 60.152">
+  					<path id="Caminho_175" d="M 68.00247192382813 82.50534057617188 L 146.1936645507813 36.69136810302734 L 144.7806396484375 42.04136657714844 L 151.5785827636719 43.83688354492188 L 156.0675048828125 26.84191513061523 L 139.0725402832031 22.35300064086914 L 137.2767791748047 29.15093994140625 L 142.7071685791016 30.58529281616211 L 64.447998046875 76.43887329101563 L 68.00247192382813 82.50534057617188 Z">
+  					</path>
+  				</svg>
+  			</div>
+  		</div>
+  		<div id="Feature_3">
+  			<div id="Durante_o_programa_ter_Propina">
+  				<span>Durante o programa terá Propinas pagas,<br/>Bolsa mensal  e será fornecido um portátil para trabalhar.</span>
+  			</div>
+  			<svg class="Retngulo_8">
+  				<rect id="Retngulo_8" rx="0" ry="0" x="0" y="0" width="250" height="250">
+  				</rect>
+  			</svg>
+  			<div id="currency">
+  				<svg class="Caminho_176" viewBox="0.086 0 101.654 34.942">
+  					<path id="Caminho_176" d="M 3.717864274978638 18.10763359069824 L 3.847081661224365 34.94205093383789 L 0.08599995821714401 16.06083488464355 L 98.29277801513672 9.5367431640625e-07 L 101.7402877807617 20.55931663513184 L 3.717864274978638 18.10763359069824 Z">
+  					</path>
+  				</svg>
+  				<svg class="Caminho_177" viewBox="4.345 12.715 99.351 19.121">
+  					<path id="Caminho_177" d="M 103.6957855224609 15.18563270568848 L 102.1658477783203 31.83569717407227 L 5.470048427581787 16.8085994720459 L 4.419081687927246 22.35804748535156 L 4.344997406005859 12.71500205993652 L 103.6957855224609 15.18563270568848 Z">
+  					</path>
+  				</svg>
+  				<svg class="Caminho_178" viewBox="21.863 29.833 35.019 34.994">
+  					<path id="Caminho_178" d="M 42.51554870605469 30.12079238891602 C 35.54571533203125 28.84224510192871 28.4929370880127 31.89405250549316 24.65349960327148 37.84988403320313 C 20.81405830383301 43.80571365356445 20.94622802734375 51.48930740356445 24.98823547363281 57.30956649780273 C 29.03024482727051 63.12982559204102 36.18381118774414 65.93726348876953 43.10554122924805 64.41975402832031 C 50.02727508544922 62.90225219726563 55.35016250610352 57.3595085144043 56.58642196655273 50.38204956054688 C 57.43908309936523 45.82558822631836 56.43061828613281 41.11745071411133 53.78645324707031 37.31000518798828 C 51.14228057861328 33.50255584716797 47.08285903930664 30.9132251739502 42.51554870605469 30.12079238891602 Z M 47.83756637573242 45.15822982788086 L 47.66527938842773 45.60100936889648 C 47.33225250244141 46.49307250976563 46.33910751342773 46.94625091552734 45.44705200195313 46.61321258544922 C 44.55499649047852 46.28017807006836 44.1018180847168 45.28704452514648 44.43485260009766 44.39498901367188 L 44.60713958740234 43.94530487060547 C 44.77563095092773 43.50007629394531 44.75984573364258 43.00607681274414 44.56327819824219 42.5725212097168 C 44.36669540405273 42.13896179199219 44.00553131103516 41.80155181884766 43.55960845947266 41.63490295410156 L 40.61518859863281 40.53224945068359 C 39.88538360595703 40.25811386108398 39.06207275390625 40.48731231689453 38.57891464233398 41.09912872314453 C 38.09575271606445 41.71095657348633 38.06363296508789 42.56496810913086 38.49947357177734 43.21135330200195 L 43.61647415161133 49.93064880371094 C 44.60107040405273 51.34651947021484 44.83200836181641 53.15406036376953 44.23500442504883 54.77199554443359 L 43.76808929443359 56.02108383178711 C 42.99811553955078 58.06828308105469 41.03988265991211 59.42388153076172 38.8526725769043 59.42379760742188 C 38.2471923828125 59.42233657836914 37.64662933349609 59.31504821777344 37.07808303833008 59.10679626464844 L 36.41648864746094 60.87276077270508 C 36.08375549316406 61.76421737670898 35.09115600585938 62.21672439575195 34.19984436035156 61.88361358642578 C 33.30852508544922 61.55049896240234 32.85601806640625 60.55791091918945 33.18912506103516 59.66658782958984 L 33.85626602172852 57.88353729248047 C 31.27948951721191 56.79629898071289 30.02313423156738 53.86658096313477 31.01176261901855 51.25039291381836 L 31.64578819274902 49.55678176879883 C 31.97852897644043 48.66532135009766 32.97112655639648 48.21282196044922 33.86244201660156 48.54593276977539 C 34.75375747680664 48.8790397644043 35.20626449584961 49.87163543701172 34.87315368652344 50.7629508972168 L 34.23874664306641 52.45641708374023 C 33.89135360717773 53.38416290283203 34.36191940307617 54.4178466796875 35.28971481323242 54.76510238647461 L 38.2307014465332 55.86602783203125 C 39.15837097167969 56.21135711669922 40.19063186645508 55.74145126342773 40.53937149047852 54.81505584716797 L 41.00628280639648 53.56768798828125 C 41.20849609375 53.02642440795898 41.13729476928711 52.42086410522461 40.81504440307617 51.94127655029297 L 35.69804382324219 45.22197341918945 C 34.4041748046875 43.38405990600586 34.43102264404297 40.9245491027832 35.76469802856445 39.11530685424805 C 37.09838104248047 37.30607223510742 39.43984985351563 36.55277633666992 41.57828521728516 37.24497222900391 L 42.24676895141602 35.46177291870117 C 42.57950592041016 34.57032012939453 43.57210159301758 34.1178092956543 44.46341705322266 34.45092391967773 C 45.35472869873047 34.78403854370117 45.8072395324707 35.77662658691406 45.47412490844727 36.66794967651367 L 44.81388473510742 38.43204498291016 C 47.49668502807617 39.46064376831055 48.84638214111328 42.46168899536133 47.83584594726563 45.15134048461914 Z">
+  					</path>
+  				</svg>
+  				<svg class="Caminho_179" viewBox="10.409 31.561 11.115 11.194">
+  					<path id="Caminho_179" d="M 16.9406795501709 31.64714431762695 C 16.61931800842285 31.59021759033203 16.29360961914063 31.56139183044434 15.96724510192871 31.56100082397461 C 14.82887935638428 31.56152153015137 13.71876049041748 31.91550636291504 12.79022407531738 32.57406616210938 C 10.26732540130615 34.35456085205078 9.652037620544434 37.8362922668457 11.41190528869629 40.37362289428711 C 12.25090217590332 41.58615875244141 13.5397481918335 42.41305541992188 14.9916410446167 42.67029571533203 C 16.44353866577148 42.92753601074219 17.93802452087402 42.59378433227539 19.14253616333008 41.74330139160156 C 21.66542625427246 39.96281051635742 22.28070640563965 36.48109817504883 20.52085494995117 33.94377136230469 C 19.68366241455078 32.72917175292969 18.39373016357422 31.90170097351074 16.94068145751953 31.64714431762695 Z">
+  					</path>
+  				</svg>
+  				<svg class="Caminho_180" viewBox="0.071 17.527 110 80.068">
+  					<path id="Caminho_180" d="M 11.51964092254639 17.52700042724609 L 0.0710001066327095 78.2987060546875 L 97.61274719238281 97.59513854980469 L 110.0710067749023 32.83664703369141 L 11.51964092254639 17.52700042724609 Z M 32.29776382446289 48.88370132446289 C 31.53593444824219 53.11855697631836 27.8892707824707 56.22587585449219 23.58718681335449 56.30599975585938 C 19.28510475158691 56.38612747192383 15.52526950836182 53.4167366027832 14.60628032684326 49.21318435668945 C 13.68729019165039 45.00964736938477 15.86498546600342 40.7421760559082 19.80801963806152 39.01972961425781 C 23.75105094909668 37.29728317260742 28.36171531677246 38.59937286376953 30.82124519348145 42.12995147705078 C 32.19008636474609 44.09347534179688 32.72077178955078 46.52122497558594 32.29604339599609 48.87680435180664 Z M 75.73196411132813 59.89300155639648 C 73.96590423583984 69.86649322509766 65.31671905517578 77.14765930175781 55.18815612792969 77.18743896484375 C 53.97156524658203 77.18693542480469 52.75738906860352 77.07911682128906 51.55974197387695 76.86524963378906 C 43.20356750488281 75.42697906494141 36.53949737548828 69.09146118164063 34.68092346191406 60.81861114501953 C 32.82234954833984 52.54574584960938 36.13615798950195 43.9686164855957 43.07416915893555 39.09435272216797 C 50.01218032836914 34.22008895874023 59.20482635498047 34.01088333129883 66.35739898681641 38.56447219848633 C 73.50997161865234 43.11805725097656 77.21054840087891 51.53556060791016 75.73024749755859 59.88439559936523 Z M 94.06013488769531 68.50749206542969 C 92.55398559570313 69.57241821289063 90.75501251220703 70.14479064941406 88.910400390625 70.14595794677734 C 88.37896728515625 70.14620971679688 87.84854888916016 70.09951782226563 87.32533264160156 70.00641632080078 C 83.08567047119141 69.26374053955078 79.96123504638672 65.62930297851563 79.86315155029297 61.32619476318359 C 79.76506042480469 57.02309799194336 82.72065734863281 53.25008010864258 86.92207336425781 52.31499862670898 C 91.12348937988281 51.37990951538086 95.40030670166016 53.54325866699219 97.13651275634766 57.48176574707031 C 98.87271118164063 61.42029190063477 97.58462524414063 66.03678894042969 94.06013488769531 68.50748443603516 Z">
+  					</path>
+  				</svg>
+  				<svg class="Caminho_181" viewBox="48.409 39.561 11.115 11.194">
+  					<path id="Caminho_181" d="M 54.94067764282227 39.64714431762695 C 54.61932754516602 39.59021759033203 54.29361343383789 39.56139755249023 53.96725082397461 39.56100463867188 C 52.82888793945313 39.5615234375 51.7187614440918 39.91550445556641 50.79022216796875 40.57406234741211 C 48.2673225402832 42.35455322265625 47.65203857421875 45.83628845214844 49.41189956665039 48.37361145019531 C 50.25089263916016 49.58615875244141 51.53974151611328 50.41306304931641 52.99163436889648 50.6702995300293 C 54.44353485107422 50.92753982543945 55.93802261352539 50.59379196166992 57.14253997802734 49.74331283569336 C 59.66543579101563 47.96282196044922 60.28071975708008 44.48108673095703 58.52085494995117 41.94375610351563 C 57.68365478515625 40.72917556762695 56.39371871948242 39.90170669555664 54.9406852722168 39.64715194702148 Z">
+  					</path>
+  				</svg>
+  			</div>
+  		</div>
+  		<div id="Features">
+  			<div id="Vantagens">
+  				<a id="pagina_vantagens">Vantagens</a>
+  			</div>
+  			<svg class="Linha_7" viewBox="0 0 200 8">
+  				<path id="Linha_7" d="M 0 0 L 200 0">
+  				</path>
+  			</svg>
+  		</div>
+  	</div>
+  	<div id="About_Us_Section">
+  		<div id="Header_Text_dq">
+  			<div id="Sobre_Ns">
+  				<a id="pagina_sobrenos">Sobre Nós</a>
+  			</div>
+  			<svg class="Linha_6" viewBox="0 0 200 8">
+  				<path id="Linha_6" d="M 0 0 L 200 0">
+  				</path>
+  			</svg>
+  		</div>
+  		<div id="Numbers">
+  			<div id="About_1">
+  				<div id="ID650">
+  					<span>+650</span>
+  				</div>
+  				<div id="Alunos">
+  					<span>Alunos</span>
+  				</div>
+  			</div>
+  			<div id="About_2">
+  				<div id="ID7">
+  					<span>7</span>
+  				</div>
+  				<div id="Turmas_Criadas">
+  					<span>Turmas Criadas</span>
+  				</div>
+  			</div>
+  			<div id="About_3">
+  				<div id="ID720">
+  					<span>+720</span>
+  				</div>
+  				<div id="Projetos_Concluidos">
+  					<span>Projetos Concluidos</span>
+  				</div>
+  			</div>
+  			<div id="About_4">
+  				<div id="ID115">
+  					<span>115</span>
+  				</div>
+  				<div id="Alunos_Formados">
+  					<span>Alunos Formados</span>
+  				</div>
+  			</div>
+  			<svg class="Linha_11" viewBox="0 0 1 144">
+  				<path id="Linha_11" d="M 0 0 L 0 144">
+  				</path>
+  			</svg>
+  			<svg class="Linha_12" viewBox="0 0 1 144">
+  				<path id="Linha_12" d="M 0 0 L 0 144">
+  				</path>
+  			</svg>
+  			<svg class="Linha_13" viewBox="0 0 1 144">
+  				<path id="Linha_13" d="M 0 0 L 0 144">
+  				</path>
+  			</svg>
+  		</div>
+  		<div id="Este_programa_pretende_ter_uma">
+  			<span>Este programa pretende ter uma abrangência nacional, tendo sido lançado pela primeira vez em 2017 no Instituto Politécnico de Setúbal. Face ao sucesso alcançado, em 2019, arrancou no Politécnico de Leiria e no Instituto Politécnico de Viseu.</span>
+  		</div>
+  	</div>
+  	<img id="Grupo_176" src="Grupo_176.png" srcset="Grupo_176.png 1x, Grupo_176@2x.png 2x">
+
+  	</svg>
+  	<div id="Sobre_Ns_eb">
+  		<a href="#pagina_sobrenos">Sobre Nós</a>
+  	</div>
+  	<div id="Vantagens_ec">
+  		<a href="#pagina_vantagens">Vantagens</a>
+  	</div>
+  	<div id="Onde_Estamos_ed">
+  		<a href="#pagina_ondeestamos">Onde Estamos</a>
+  	</div>
+  	<div id="BrightStart">
+  		<span>BrightStart</span>
+  	</div>
+  	<div id="____O_BrightStart__uma_iniciat">
+  		<span>    O BrightStart é uma iniciativa de aceleração de competências na área das Tecnologias Informáticas, que permite aos finalistas do ensino secundário adquirirem, enquanto estudam, conhecimentos práticos em ambiente real de trabalho.</span>
+  	</div>
+  	<svg class="Icon_awesome-discord" viewBox="0 0 96.724 110.541"><a href="https://discord.gg/V2nKXvdB" target="_blank">
+  		<path id="Icon_awesome-discord" d="M 64.16923522949219 52.50712585449219 C 64.16923522949219 55.87863540649414 61.68205642700195 58.64216613769531 58.5316276550293 58.64216613769531 C 55.43647766113281 58.64216613769531 52.89402008056641 55.87863540649414 52.89402008056641 52.50712585449219 C 52.89402008056641 49.1356201171875 55.38119506835938 46.3720817565918 58.5316276550293 46.3720817565918 C 61.68205642700195 46.3720817565918 64.16923522949219 49.1356201171875 64.16923522949219 52.50712585449219 Z M 38.35783767700195 46.3720817565918 C 35.20741271972656 46.3720817565918 32.72023010253906 49.1356201171875 32.72023010253906 52.50712585449219 C 32.72023010253906 55.87863540649414 35.26268005371094 58.64216613769531 38.35783767700195 58.64216613769531 C 41.50826644897461 58.64216613769531 43.99544906616211 55.87863540649414 43.99544906616211 52.50712585449219 C 44.05071640014648 49.1356201171875 41.50826644897461 46.3720817565918 38.35783767700195 46.3720817565918 Z M 96.72365570068359 11.38575553894043 L 96.72365570068359 110.5413131713867 C 82.79933929443359 98.23625183105469 87.25251007080078 102.3094482421875 71.07806396484375 87.27237701416016 L 74.00741577148438 97.49744415283203 L 11.33048534393311 97.49744415283203 C 5.084900856018066 97.49744415283203 0 92.41253662109375 0 86.11168670654297 L 0 11.38575553894043 C 0 5.084900856018066 5.084900856018066 0 11.33048534393311 0 L 85.39317321777344 0 C 91.63874816894531 0 96.72365570068359 5.084900856018066 96.72365570068359 11.38575553894043 Z M 80.97151184082031 63.78234100341797 C 80.97151184082031 45.98518753051758 73.01253509521484 31.55954360961914 73.01253509521484 31.55954360961914 C 65.05356597900391 25.59031105041504 57.48148345947266 25.75612258911133 57.48148345947266 25.75612258911133 L 56.70769119262695 26.64045333862305 C 66.10369873046875 29.51452827453613 70.47008514404297 33.65982818603516 70.47008514404297 33.65982818603516 C 57.34092712402344 26.46405982971191 41.9184684753418 26.46276664733887 29.18290519714355 32.05697631835938 C 27.13788986206055 32.99657821655273 25.92193412780762 33.65982818603516 25.92193412780762 33.65982818603516 C 25.92193412780762 33.65982818603516 30.5093994140625 29.2934455871582 40.4581184387207 26.41937446594238 L 39.90541076660156 25.75612449645996 C 39.90541076660156 25.75612449645996 32.33333206176758 25.59031295776367 24.37435531616211 31.55954551696777 C 24.37435531616211 31.55954551696777 16.41538047790527 45.98518753051758 16.41538047790527 63.78234100341797 C 16.41538047790527 63.78234100341797 21.05811309814453 71.79658508300781 33.27293014526367 72.18347930908203 C 33.27293014526367 72.18347930908203 35.31794738769531 69.69630432128906 36.9760627746582 67.59601593017578 C 29.95669174194336 65.4957275390625 27.3036994934082 61.07407760620117 27.3036994934082 61.07407760620117 C 28.11678504943848 61.64319229125977 29.45752716064453 62.38092422485352 29.56979751586914 62.45584487915039 C 38.89888000488281 67.68022155761719 52.15045166015625 69.39188385009766 64.05869293212891 64.39031982421875 C 65.9931640625 63.67180252075195 68.14871978759766 62.62165069580078 70.41481018066406 61.12934494018555 C 70.41481018066406 61.12934494018555 67.65128326416016 65.66153717041016 60.41083145141602 67.70655059814453 C 62.06895065307617 69.80683898925781 64.05869293212891 72.18347930908203 64.05869293212891 72.18347930908203 C 76.27350616455078 71.79658508300781 80.97151184082031 63.78234100341797 80.97151184082031 63.78234100341797 Z">
+  		</path>
+  	</svg>
+  	<div id="layer1_eh">
+  		<div id="g3359_ei">
+  			<div id="g3371_ej">
+  				<svg class="path3356_ek" viewBox="16602.342 5272.1 20.49 20.488">
+  					<path id="path3356_ek" d="M 16602.341796875 5282.3447265625 C 16602.341796875 5276.6884765625 16606.93359375 5272.099609375 16612.587890625 5272.099609375 C 16618.24609375 5272.099609375 16622.83203125 5276.6884765625 16622.83203125 5282.3447265625 C 16622.83203125 5288.00146484375 16618.24609375 5292.58740234375 16612.587890625 5292.58740234375 C 16606.93359375 5292.58740234375 16602.341796875 5288.0009765625 16602.341796875 5282.3447265625">
+  					</path>
+  				</svg>
+  				<svg class="path3360_el" viewBox="15763.43 5154.124 58.723 70.844">
+  					<path id="path3360_el" d="M 15802.751953125 5188.720703125 C 15802.751953125 5182.23095703125 15801.498046875 5177.41650390625 15798.990234375 5174.27978515625 C 15796.478515625 5171.146484375 15792.67578125 5169.5810546875 15787.5615234375 5169.5810546875 L 15782.1220703125 5169.5810546875 L 15782.1220703125 5209.2646484375 L 15786.283203125 5209.2646484375 C 15791.9638671875 5209.2646484375 15796.125 5207.5810546875 15798.77734375 5204.201171875 C 15801.423828125 5200.82763671875 15802.751953125 5195.666015625 15802.751953125 5188.72021484375 M 15822.15234375 5188.0439453125 C 15822.15234375 5199.8671875 15818.9736328125 5208.97705078125 15812.6171875 5215.3720703125 C 15806.26171875 5221.76953125 15797.3271484375 5224.96826171875 15785.8095703125 5224.96826171875 L 15763.4296875 5224.96826171875 L 15763.4296875 5154.1240234375 L 15787.3720703125 5154.1240234375 C 15798.4775390625 5154.1240234375 15807.05078125 5157.0322265625 15813.091796875 5162.845703125 C 15819.130859375 5168.662109375 15822.15234375 5177.0576171875 15822.15234375 5188.0439453125">
+  					</path>
+  				</svg>
+  				<svg class="path3362_em" viewBox="16040.061 5153.44 17.809 71.141">
+  					<path id="path3362_em" d="M 16040.060546875 5224.58154296875 L 16057.869140625 5224.58154296875 L 16057.869140625 5153.4404296875 L 16040.060546875 5153.4404296875 L 16040.060546875 5224.58154296875 Z">
+  					</path>
+  				</svg>
+  				<svg class="path3366_en" viewBox="16096.771 5193.228 51.508 54.711">
+  					<path id="path3366_en" d="M 16114.85546875 5220.4697265625 C 16114.85546875 5225.00537109375 16115.4482421875 5228.46484375 16116.630859375 5230.8427734375 C 16117.81640625 5233.2236328125 16119.802734375 5234.412109375 16122.595703125 5234.412109375 C 16125.359375 5234.412109375 16127.3125 5233.2236328125 16128.451171875 5230.8427734375 C 16129.587890625 5228.46484375 16130.1552734375 5225.005859375 16130.1552734375 5220.4697265625 C 16130.1552734375 5215.95751953125 16129.580078125 5212.55419921875 16128.427734375 5210.2568359375 C 16127.2705078125 5207.953125 16125.298828125 5206.7998046875 16122.50390625 5206.7998046875 C 16119.76953125 5206.7998046875 16117.81640625 5207.947265625 16116.630859375 5210.22998046875 C 16115.447265625 5212.515625 16114.8544921875 5215.927734375 16114.8544921875 5220.4697265625 M 16148.279296875 5220.4697265625 C 16148.279296875 5229.111328125 16146.0146484375 5235.8525390625 16141.47265625 5240.6845703125 C 16136.93359375 5245.52001953125 16130.5810546875 5247.939453125 16122.4140625 5247.939453125 C 16114.58203125 5247.939453125 16108.34765625 5245.466796875 16103.7197265625 5240.52197265625 C 16099.0859375 5235.5771484375 16096.771484375 5228.89453125 16096.771484375 5220.4697265625 C 16096.771484375 5211.8544921875 16099.0390625 5205.16015625 16103.580078125 5200.3876953125 C 16108.1220703125 5195.6142578125 16114.490234375 5193.22802734375 16122.689453125 5193.22802734375 C 16127.755859375 5193.22802734375 16132.23828125 5194.333984375 16136.1220703125 5196.54248046875 C 16140.0087890625 5198.7509765625 16143.009765625 5201.9140625 16145.1171875 5206.03515625 C 16147.2265625 5210.14990234375 16148.279296875 5214.96435546875 16148.279296875 5220.4697265625">
+  					</path>
+  				</svg>
+  				<svg class="path3370_eo" viewBox="16231.038 5195.37 17.812 52.844">
+  					<path id="path3370_eo" d="M 16231.0380859375 5248.21337890625 L 16248.849609375 5248.21337890625 L 16248.849609375 5220.986328125 L 16248.849609375 5195.36962890625 L 16231.0380859375 5195.36962890625 L 16231.0380859375 5248.21337890625 Z">
+  					</path>
+  				</svg>
+  				<svg class="path3372_ep" viewBox="16231.038 5153.435 17.812 11.909">
+  					<path id="path3372_ep" d="M 16231.0380859375 5165.34375 L 16248.849609375 5165.34375 L 16248.849609375 5153.43505859375 L 16231.0380859375 5153.43505859375 L 16231.0380859375 5165.34375 Z">
+  					</path>
+  				</svg>
+  				<svg class="path3376_eq" viewBox="16288.043 5157.304 37.616 70.387">
+  					<path id="path3376_eq" d="M 16317.05078125 5213.28125 C 16319.455078125 5213.28125 16322.318359375 5212.669921875 16325.6591796875 5211.45751953125 L 16325.6591796875 5224.75390625 C 16323.2578125 5225.80908203125 16320.9755859375 5226.56494140625 16318.8056640625 5227.0126953125 C 16316.6357421875 5227.4658203125 16314.08984375 5227.69140625 16311.1748046875 5227.69140625 C 16305.1953125 5227.69140625 16300.884765625 5226.1884765625 16298.2373046875 5223.1884765625 C 16295.6015625 5220.1884765625 16294.279296875 5215.5810546875 16294.279296875 5209.36474609375 L 16294.279296875 5187.5810546875 L 16288.04296875 5187.5810546875 L 16288.04296875 5173.92041015625 L 16294.279296875 5173.92041015625 L 16294.279296875 5160.42578125 L 16312.2265625 5157.30419921875 L 16312.2265625 5173.92041015625 L 16323.58984375 5173.92041015625 L 16323.58984375 5187.5810546875 L 16312.2265625 5187.5810546875 L 16312.2265625 5208.1494140625 C 16312.2265625 5211.5703125 16313.8369140625 5213.28125 16317.05078125 5213.28125">
+  					</path>
+  				</svg>
+  				<svg class="path3380_er" viewBox="16382.492 5157.304 37.621 70.387">
+  					<path id="path3380_er" d="M 16411.50390625 5213.28125 C 16413.908203125 5213.28125 16416.771484375 5212.669921875 16420.11328125 5211.45751953125 L 16420.11328125 5224.75390625 C 16417.71484375 5225.80908203125 16415.427734375 5226.56494140625 16413.259765625 5227.0126953125 C 16411.0859375 5227.4658203125 16408.548828125 5227.69140625 16405.626953125 5227.69140625 C 16399.6484375 5227.69140625 16395.337890625 5226.1884765625 16392.6953125 5223.1884765625 C 16390.0546875 5220.1884765625 16388.732421875 5215.5810546875 16388.732421875 5209.36474609375 L 16388.732421875 5187.5810546875 L 16382.4921875 5187.5810546875 L 16382.4921875 5173.92041015625 L 16388.732421875 5173.92041015625 L 16388.732421875 5160.22119140625 L 16406.677734375 5157.30419921875 L 16406.677734375 5173.92041015625 L 16418.046875 5173.92041015625 L 16418.046875 5187.5810546875 L 16406.677734375 5187.5810546875 L 16406.677734375 5208.1494140625 C 16406.677734375 5211.5703125 16408.287109375 5213.28125 16411.50390625 5213.28125">
+  					</path>
+  				</svg>
+  				<svg class="path3384_es" viewBox="16478.158 5193.234 49.824 54.708">
+  					<path id="path3384_es" d="M 16496.515625 5214.03662109375 C 16496.7578125 5211.1435546875 16497.5859375 5209.0234375 16498.99609375 5207.6689453125 C 16500.4140625 5206.3173828125 16502.162109375 5205.64111328125 16504.255859375 5205.64111328125 C 16506.537109375 5205.64111328125 16508.3515625 5206.39990234375 16509.697265625 5207.9296875 C 16511.052734375 5209.45068359375 16511.7578125 5211.4873046875 16511.814453125 5214.037109375 L 16496.513671875 5214.037109375 Z M 16521.630859375 5199.462890625 C 16517.3984375 5195.3125 16511.390625 5193.234375 16503.62109375 5193.234375 C 16495.453125 5193.234375 16489.16796875 5195.62109375 16484.763671875 5200.3935546875 C 16480.361328125 5205.1669921875 16478.158203125 5212.0146484375 16478.158203125 5220.93798828125 C 16478.158203125 5229.580078125 16480.5390625 5236.244140625 16485.2890625 5240.9228515625 C 16490.041015625 5245.6005859375 16496.712890625 5247.9423828125 16505.30859375 5247.9423828125 C 16509.43359375 5247.9423828125 16512.986328125 5247.6611328125 16515.9609375 5247.1005859375 C 16518.921875 5246.54638671875 16521.78515625 5245.5439453125 16524.5625 5244.09765625 L 16521.826171875 5232.1884765625 C 16519.806640625 5233.0126953125 16517.88671875 5233.6474609375 16516.0703125 5234.0654296875 C 16513.451171875 5234.6728515625 16510.57421875 5234.978515625 16507.4453125 5234.978515625 C 16504.01171875 5234.978515625 16501.302734375 5234.1396484375 16499.31640625 5232.4619140625 C 16497.330078125 5230.78076171875 16496.271484375 5228.46240234375 16496.1484375 5225.509765625 L 16527.982421875 5225.509765625 L 16527.982421875 5217.3955078125 C 16527.982421875 5209.58984375 16525.865234375 5203.6103515625 16521.62890625 5199.462890625">
+  					</path>
+  				</svg>
+  				<svg class="path3388_et" viewBox="15910.113 5193.234 49.826 54.708">
+  					<path id="path3388_et" d="M 15928.470703125 5214.03662109375 C 15928.712890625 5211.1435546875 15929.541015625 5209.0234375 15930.951171875 5207.6689453125 C 15932.365234375 5206.3173828125 15934.1171875 5205.64111328125 15936.212890625 5205.64111328125 C 15938.490234375 5205.64111328125 15940.3046875 5206.39990234375 15941.6533203125 5207.9296875 C 15943.0078125 5209.45068359375 15943.7109375 5211.4873046875 15943.7734375 5214.037109375 L 15928.470703125 5214.037109375 Z M 15953.58984375 5199.462890625 C 15949.353515625 5195.3125 15943.349609375 5193.234375 15935.576171875 5193.234375 C 15927.40625 5193.234375 15921.1240234375 5195.62109375 15916.7216796875 5200.3935546875 C 15912.3193359375 5205.1669921875 15910.11328125 5212.0146484375 15910.11328125 5220.93798828125 C 15910.11328125 5229.580078125 15912.4912109375 5236.244140625 15917.24609375 5240.9228515625 C 15921.9951171875 5245.6005859375 15928.6689453125 5247.9423828125 15937.263671875 5247.9423828125 C 15941.3896484375 5247.9423828125 15944.94140625 5247.6611328125 15947.91796875 5247.1005859375 C 15950.876953125 5246.54638671875 15953.740234375 5245.5439453125 15956.521484375 5244.09765625 L 15953.78125 5232.1884765625 C 15951.7626953125 5233.0126953125 15949.841796875 5233.6474609375 15948.0302734375 5234.0654296875 C 15945.404296875 5234.6728515625 15942.53125 5234.978515625 15939.400390625 5234.978515625 C 15935.9697265625 5234.978515625 15933.2578125 5234.1396484375 15931.271484375 5232.4619140625 C 15929.28125 5230.78076171875 15928.2265625 5228.46240234375 15928.10546875 5225.509765625 L 15959.939453125 5225.509765625 L 15959.939453125 5217.3955078125 C 15959.939453125 5209.58984375 15957.822265625 5203.6103515625 15953.5888671875 5199.462890625">
+  					</path>
+  				</svg>
+  			</div>
+  		</div>
+  	</div>
+  	<div id="O_Instituto_Politcnico_de_Vise">
+  		<span>O Instituto Politécnico de Viseu é composto por cinco Escolas Superiores e uma comunidade constituída por mais de 5700 estudantes, 355 docentes e 230 funcionários.</span>
+  	</div>
+  	<div id="IPV_DWDM-Desenvolvimento_Web_e">
+  		<span>IPV<br/>DWDM-Desenvolvimento Web e Dispositivos Moveis</span>
+  	</div>
+  	<img id="Imagem_3" src="Imagem_3.png" srcset="Imagem_3.png 1x, Imagem_3@2x.png 2x">
+
+  	<div id="O_Instituto_Politcnico_de_Setb">
+  		<span>O Instituto Politécnico de Setúbal (IPS) é a instituição de ensino superior público de referência na região, com polos nas cidades de Setúbal e Barreiro. </span>
+  	</div>
+  	<div id="IPS_TI-Tecnologias_Informticas">
+  		<span>IPS<br/>TI-Tecnologias Informáticas</span>
+  	</div>
+  	<div id="O_Instituto_Politcnico_de_Vise_ez">
+  		<span>O Instituto Politécnico de Viseu é composto por cinco Escolas Superiores e uma comunidade constituída por mais de 5700 estudantes, 355 docentes.</span>
+  	</div>
+  	<div id="IPL_TI-Tecnologias_Informticas">
+  		<span>IPL<br/>TI-Tecnologias Informáticas</span>
+  	</div>
+  	<img id="Imagem_3_e" src="Imagem_3_e.png" srcset="Imagem_3_e.png 1x, Imagem_3_e@2x.png 2x">
+
+  	<img id="Imagem_5" src="Imagem_5.png" srcset="Imagem_5.png 1x, Imagem_5@2x.png 2x">
+
+  	<div id="Testemunhos_e">
+  		<a href="#pagina_testemunhos">Testemunhos</a>
+  	</div>
+  	<div id="Inscreve-te_e">
+  		<a href="#pagina_inscrevete">Inscreve-te</a>
+  	</div>
+  	<div id="Grupo_191">
+  		<svg class="Retngulo_344">
+  			<rect id="Retngulo_344" rx="3" ry="3" x="0" y="0" width="157" height="59">
+  			</rect>
+  		</svg>
+  		<div id="Saiba_Mais">
+  		<a href="http://www.estgv.ipv.pt/dep/di/siteDI/DWAM/acesso23anos.php" id="linkescola" target="_blank">Saiba Mais</a>
+  		</div>
+  	</div>
+  	<div id="Grupo_192">
+  		<svg class="Retngulo_344_e">
+  			<rect id="Retngulo_344_e" rx="3" ry="3" x="0" y="0" width="157" height="59">
+  			</rect>
+  		</svg>
+  		<div id="Saiba_Mais_fa">
+  		<a href="https://www.estsetubal.ips.pt/cursos/ctesp/ti" id="linkescola" target="_blank">Saiba Mais</a>
+  		</div>
+  	</div>
+  	<div id="Grupo_193">
+  		<svg class="Retngulo_344_fc">
+  			<rect id="Retngulo_344_fc" rx="3" ry="3" x="0" y="0" width="157" height="59">
+  			</rect>
+  		</svg>
+  		<div id="Saiba_Mais_fd">
+  		<a href="https://www.ipleiria.pt/curso/tesp-de-tecnologias-informaticas/" id="linkescola" target="_blank">Saiba Mais</a>
+  		</div>
+  	</div>
+  	<div id="ipvpt_brightstartdeloittept_21">
+  		<span>ipv.pt<br/>brightstart@deloitte.pt<br/>210 422 932</span>
+  	</div>
+  	<div id="brightstartdeloittept_210_422_">
+  		<span>brightstart@deloitte.pt<br/>210 422 932</span>
+  	</div>
+  	<div id="brightstartdeloittept_210_422__fg">
+  		<span>brightstart@deloitte.pt<br/>210 422 932</span>
+  	</div>
+  	<div id="Grupo_194">
+  		<svg class="Retngulo_344_fi">
+  			<rect id="Retngulo_344_fi" rx="3" ry="3" x="0" y="0" width="157" height="59">
+  			</rect>
+  		</svg>
+  		<div id="Ler_Mais">
+  			<span>Ler Mais</span>
+  		</div>
+  	</div>
+  	<img id="homem-estudante" src="homem-estudante.png" srcset="homem-estudante.png 1x, homem-estudante@2x.png 2x">
+
+  </div>
+  <div id="redimensionar">
+  </div>
+</body>
